@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9j5-s1-3U9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,388 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="yx4-Fo-iD2">
+                                <rect key="frame" x="87" y="331.5" width="240" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="233" id="eda-6Z-Hek"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EEG Seizure Detection" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mi1-uA-4c8">
+                                <rect key="frame" x="53" y="153" width="308" height="156"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgh-z9-PFt">
+                                <rect key="frame" x="87" y="706" width="250" height="78"/>
+                                <color key="backgroundColor" red="0.16024547532170777" green="0.32575827419999398" blue="0.80995315313339233" alpha="0.79357394366197187" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="cu0-3o-PGd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-20-WKo">
+                                <rect key="frame" x="130" y="656" width="207" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="0yR-pj-VT4"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="hFP-5Z-L9O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Terms and Aggrement">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uVl-EK-Yd6" kind="show" id="BwP-eZ-cri"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vv0-Tt-dUY" customClass="Checkbox" customModule="seizureDetection" customModuleProvider="target">
+                                <rect key="frame" x="87" y="659" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="6RR-O7-0mF"/>
+                                    <constraint firstAttribute="height" constant="30" id="hVo-wf-WQX"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2831214964389801" green="0.49369347095489502" blue="0.73336189985275269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kgh-z9-PFt" secondAttribute="bottom" constant="78" id="3Us-JE-cSx"/>
+                            <constraint firstItem="yx4-Fo-iD2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Yn-by-iZs"/>
+                            <constraint firstItem="B7B-20-WKo" firstAttribute="trailing" secondItem="Kgh-z9-PFt" secondAttribute="trailing" id="HTC-nA-bsI"/>
+                            <constraint firstItem="B7B-20-WKo" firstAttribute="trailing" secondItem="Kgh-z9-PFt" secondAttribute="trailing" id="T23-BQ-Cp6"/>
+                            <constraint firstItem="Kgh-z9-PFt" firstAttribute="top" secondItem="B7B-20-WKo" secondAttribute="bottom" constant="15" id="UXZ-55-p1V"/>
+                            <constraint firstItem="Vv0-Tt-dUY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="Ymz-4w-pBw"/>
+                            <constraint firstItem="B7B-20-WKo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Vv0-Tt-dUY" secondAttribute="trailing" constant="8" symbolic="YES" id="dKh-3f-B6I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B7B-20-WKo" secondAttribute="trailing" constant="77" id="jty-be-CMw"/>
+                            <constraint firstItem="Vv0-Tt-dUY" firstAttribute="leading" secondItem="Kgh-z9-PFt" secondAttribute="leading" id="kcO-xD-vGW"/>
+                            <constraint firstItem="Kgh-z9-PFt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oFR-U9-HGI"/>
+                            <constraint firstItem="mi1-uA-4c8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="t6n-vH-uRn"/>
+                            <constraint firstItem="Kgh-z9-PFt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Vv0-Tt-dUY" secondAttribute="bottom" constant="15" id="tGp-cB-idz"/>
+                            <constraint firstItem="Vv0-Tt-dUY" firstAttribute="centerY" secondItem="B7B-20-WKo" secondAttribute="centerY" id="xDk-zy-Pxh"/>
+                            <constraint firstItem="mi1-uA-4c8" firstAttribute="centerX" secondItem="yx4-Fo-iD2" secondAttribute="centerX" id="xll-3f-43B"/>
+                            <constraint firstItem="mi1-uA-4c8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="yHU-sq-Ods"/>
+                            <constraint firstItem="yx4-Fo-iD2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yLc-Jo-BIl"/>
+                            <constraint firstItem="yx4-Fo-iD2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="yia-Ba-vna"/>
+                            <constraint firstItem="yx4-Fo-iD2" firstAttribute="top" secondItem="mi1-uA-4c8" secondAttribute="bottom" constant="22.5" id="ysm-bc-FHh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0R6-VQ-N2c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="89.732142857142847"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hLV-bd-vBu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9j5-s1-3U9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="v0n-KI-3fO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="joF-cr-ifw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLb-c9-Tm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="caN-m9-845">
+            <objects>
+                <viewController id="uVl-EK-Yd6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wch-xv-GUw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQY-Pf-btV">
+                                <rect key="frame" x="67" y="120" width="280" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5l-74-C1G">
+                                <rect key="frame" x="0.0" y="178" width="414" height="718"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7c-5K-uRP">
+                                        <rect key="frame" x="10" y="0.0" width="396" height="122"/>
+                                        <mutableString key="text">Please read these terms and conditions carefully before using Our Service.
+
+Interpretation and Definitions  
+==============================
+
+Interpretation  
+--------------
+
+The words of which the initial letter is capitalized have meanings defined
+under the following conditions.
+
+The following definitions shall have the same meaning regardless of whether
+they appear in singular or in plural.
+
+Definitions  
+-----------
+
+For the purposes of these Terms and Conditions:
+
+  * Affiliate means an entity that controls, is controlled by or is under
+    common control with a party, where "control" means ownership of 50% or
+    more of the shares, equity interest or other securities entitled to vote
+    for election of directors or other managing authority.
+  * Company (referred to as either "the Company", "We", "Us" or "Our" in this
+    Agreement) refers to My Site.
+  * Country refers to: New York, United States
+  * Service refers to the Website.
+  * Terms and Conditions (also referred as "Terms") mean these Terms and
+    Conditions that form the entire agreement between You and the Company
+    regarding the use of the Service. This Terms and Conditions agreement is
+    maintained by the [Terms and Conditions
+    Generator](https://www.privacypolicies.com/terms-conditions-generator/).
+  * Third-party Social Media Service means any services or content (including
+    data, information, products or services) provided by a third-party that
+    may be displayed, included or made available by the Service.
+  * Website refers to My Site, accessible from http://www.mysite.com
+  * You means the individual accessing or using the Service, or the company,
+    or other legal entity on behalf of which such individual is accessing or
+    using the Service, as applicable.
+
+Acknowledgement  
+===============
+
+These are the Terms and Conditions governing the use of this Service and the
+agreement that operates between You and the Company. These Terms and
+Conditions set out the rights and obligations of all users regarding the use
+of the Service.
+
+Your access to and use of the Service is conditioned on Your acceptance of and
+compliance with these Terms and Conditions. These Terms and Conditions apply
+to all visitors, users and others who access or use the Service.
+
+By accessing or using the Service You agree to be bound by these Terms and
+Conditions. If You disagree with any part of these Terms and Conditions then
+You may not access the Service.
+
+Your access to and use of the Service is also conditioned on Your acceptance
+of and compliance with the Privacy Policy of the Company. Our Privacy Policy
+describes Our policies and procedures on the collection, use and disclosure of
+Your personal information when You use the Application or the Website and
+tells You about Your privacy rights and how the law protects You. Please read
+Our Privacy Policy carefully before using Our Service.
+
+Links to Other Websites  
+=======================
+
+Our Service may contain links to third-party web sites or services that are
+not owned or controlled by the Company.
+
+The Company has no control over, and assumes no responsibility for, the
+content, privacy policies, or practices of any third party web sites or
+services. You further acknowledge and agree that the Company shall not be
+responsible or liable, directly or indirectly, for any damage or loss caused
+or alleged to be caused by or in connection with the use of or reliance on any
+such content, goods or services available on or through any such web sites or
+services.
+
+We strongly advise You to read the terms and conditions and privacy policies
+of any third-party web sites or services that You visit.
+
+Termination  
+===========
+
+We may terminate or suspend Your access immediately, without prior notice or
+liability, for any reason whatsoever, including without limitation if You
+breach these Terms and Conditions.
+
+Upon termination, Your right to use the Service will cease immediately.
+
+Limitation of Liability  
+=======================
+
+Notwithstanding any damages that You might incur, the entire liability of the
+Company and any of its suppliers under any provision of this Terms and Your
+exclusive remedy for all of the foregoing shall be limited to the amount
+actually paid by You through the Service or 100 USD if You haven't purchased
+anything through the Service.
+
+To the maximum extent permitted by applicable law, in no event shall the
+Company or its suppliers be liable for any special, incidental, indirect, or
+consequential damages whatsoever (including, but not limited to, damages for
+loss of profits, loss of data or other information, for business interruption,
+for personal injury, loss of privacy arising out of or in any way related to
+the use of or inability to use the Service, third-party software and/or third-
+party hardware used with the Service, or otherwise in connection with any
+provision of this Terms), even if the Company or any supplier has been advised
+of the possibility of such damages and even if the remedy fails of its
+essential purpose.
+
+Some states do not allow the exclusion of implied warranties or limitation of
+liability for incidental or consequential damages, which means that some of
+the above limitations may not apply. In these states, each party's liability
+will be limited to the greatest extent permitted by law.
+
+"AS IS" and "AS AVAILABLE" Disclaimer  
+=====================================
+
+The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults
+and defects without warranty of any kind. To the maximum extent permitted
+under applicable law, the Company, on its own behalf and on behalf of its
+Affiliates and its and their respective licensors and service providers,
+expressly disclaims all warranties, whether express, implied, statutory or
+otherwise, with respect to the Service, including all implied warranties of
+merchantability, fitness for a particular purpose, title and non-infringement,
+and warranties that may arise out of course of dealing, course of performance,
+usage or trade practice. Without limitation to the foregoing, the Company
+provides no warranty or undertaking, and makes no representation of any kind
+that the Service will meet Your requirements, achieve any intended results, be
+compatible or work with any other software, applications, systems or services,
+operate without interruption, meet any performance or reliability standards or
+be error free or that any errors or defects can or will be corrected.
+
+Without limiting the foregoing, neither the Company nor any of the company's
+provider makes any representation or warranty of any kind, express or implied:
+(i) as to the operation or availability of the Service, or the information,
+content, and materials or products included thereon; (ii) that the Service
+will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or
+currency of any information or content provided through the Service; or (iv)
+that the Service, its servers, the content, or e-mails sent from or on behalf
+of the Company are free of viruses, scripts, trojan horses, worms, malware,
+timebombs or other harmful components.
+
+Some jurisdictions do not allow the exclusion of certain types of warranties
+or limitations on applicable statutory rights of a consumer, so some or all of
+the above exclusions and limitations may not apply to You. But in such a case
+the exclusions and limitations set forth in this section shall be applied to
+the greatest extent enforceable under applicable law.
+
+Governing Law  
+=============
+
+The laws of the Country, excluding its conflicts of law rules, shall govern
+this Terms and Your use of the Service. Your use of the Application may also
+be subject to other local, state, national, or international laws.
+
+Disputes Resolution  
+===================
+
+If You have any concern or dispute about the Service, You agree to first try
+to resolve the dispute informally by contacting the Company.
+
+For European Union (EU) Users  
+=============================
+
+If You are a European Union consumer, you will benefit from any mandatory
+provisions of the law of the country in which you are resident in.
+
+United States Legal Compliance  
+==============================
+
+You represent and warrant that (i) You are not located in a country that is
+subject to the United States government embargo, or that has been designated
+by the United States government as a “terrorist supporting” country, and (ii)
+You are not listed on any United States government list of prohibited or
+restricted parties.
+
+Severability and Waiver  
+=======================
+
+Severability  
+------------
+
+If any provision of these Terms is held to be unenforceable or invalid, such
+provision will be changed and interpreted to accomplish the objectives of such
+provision to the greatest extent possible under applicable law and the
+remaining provisions will continue in full force and effect.
+
+Waiver  
+------
+
+Except as provided herein, the failure to exercise a right or to require
+performance of an obligation under this Terms shall not effect a party's
+ability to exercise such right or require such performance at any time
+thereafter nor shall be the waiver of a breach constitute a waiver of any
+subsequent breach.
+
+Translation Interpretation  
+==========================
+
+These Terms and Conditions may have been translated if We have made them
+available to You on our Service.
+
+You agree that the original English text shall prevail in the case of a
+dispute.
+
+Changes to These Terms and Conditions  
+=====================================
+
+We reserve the right, at Our sole discretion, to modify or replace these Terms
+at any time. If a revision is material We will make reasonable efforts to
+provide at least 30 days' notice prior to any new terms taking effect. What
+constitutes a material change will be determined at Our sole discretion.
+
+By continuing to access or use Our Service after those revisions become
+effective, You agree to be bound by the revised terms. If You do not agree to
+the new terms, in whole or in part, please stop using the website and the
+Service.
+
+Contact Us  
+==========
+
+If you have any questions about these Terms and Conditions, You can contact
+us:
+
+  * By visiting this page on our website: http://www.mycompany.com/contact
+
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="W7c-5K-uRP" secondAttribute="bottom" constant="596" id="6Rr-1f-zJ5"/>
+                                    <constraint firstItem="W7c-5K-uRP" firstAttribute="trailing" secondItem="d5l-74-C1G" secondAttribute="trailingMargin" id="GVw-Wx-9Ra"/>
+                                    <constraint firstItem="W7c-5K-uRP" firstAttribute="leading" secondItem="d5l-74-C1G" secondAttribute="leading" constant="10" id="LVZ-o3-4iF"/>
+                                    <constraint firstItem="QwN-lN-irY" firstAttribute="bottom" secondItem="W7c-5K-uRP" secondAttribute="bottom" constant="596" id="XRt-7j-Tnb"/>
+                                    <constraint firstItem="W7c-5K-uRP" firstAttribute="top" secondItem="SEv-bn-KQ5" secondAttribute="top" id="a7y-UT-xiq"/>
+                                    <constraint firstItem="QwN-lN-irY" firstAttribute="trailing" secondItem="W7c-5K-uRP" secondAttribute="trailing" constant="8" id="dNC-st-nR0"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="SEv-bn-KQ5"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="QwN-lN-irY"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28312149640000001" green="0.49369347099999999" blue="0.7333618999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="d5l-74-C1G" firstAttribute="width" secondItem="b8A-y9-7Eq" secondAttribute="width" id="3Xy-Y2-hqo"/>
+                            <constraint firstItem="d5l-74-C1G" firstAttribute="top" secondItem="wch-xv-GUw" secondAttribute="top" constant="178" id="65K-fu-pQa"/>
+                            <constraint firstItem="d5l-74-C1G" firstAttribute="leading" secondItem="b8A-y9-7Eq" secondAttribute="leading" id="9RD-g8-11V"/>
+                            <constraint firstItem="GQY-Pf-btV" firstAttribute="top" secondItem="b8A-y9-7Eq" secondAttribute="top" constant="32" id="CLU-Rd-7f2"/>
+                            <constraint firstItem="GQY-Pf-btV" firstAttribute="centerX" secondItem="d5l-74-C1G" secondAttribute="centerX" id="Uvr-MJ-clL"/>
+                            <constraint firstItem="d5l-74-C1G" firstAttribute="top" secondItem="GQY-Pf-btV" secondAttribute="bottom" constant="22" id="Uyg-n8-d4i"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="d5l-74-C1G" secondAttribute="bottom" constant="-34" id="qIP-l0-Rq8"/>
+                            <constraint firstItem="b8A-y9-7Eq" firstAttribute="trailing" secondItem="d5l-74-C1G" secondAttribute="trailing" id="yDg-We-dNp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b8A-y9-7Eq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XKl-6t-9At"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A5k-rF-LK2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2460.8695652173915" y="-352.23214285714283"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="622" height="618"/>
+    </resources>
 </document>

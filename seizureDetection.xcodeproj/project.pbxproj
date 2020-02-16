@@ -15,6 +15,7 @@
 		97279F7F23F114B500B2BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */; };
 		97279F8A23F114B500B2BAFB /* seizureDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F8923F114B500B2BAFB /* seizureDetectionTests.swift */; };
 		97279F9523F114B500B2BAFB /* seizureDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */; };
+		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seizureDetectionUITests.swift; sourceTree = "<group>"; };
 		97279F9623F114B500B2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				97279F7223F114B200B2BAFB /* AppDelegate.swift */,
 				97279F7423F114B200B2BAFB /* SceneDelegate.swift */,
 				97279F7623F114B200B2BAFB /* ViewController.swift */,
+				975D3D7F23F2173A0054944F /* Checkbox.swift */,
 				97279F7823F114B200B2BAFB /* Main.storyboard */,
 				97279F7B23F114B500B2BAFB /* Assets.xcassets */,
 				97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975D3D8023F2173A0054944F /* Checkbox.swift in Sources */,
 				97279F7723F114B200B2BAFB /* ViewController.swift in Sources */,
 				97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */,
 				97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */,
