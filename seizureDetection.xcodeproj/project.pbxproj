@@ -16,6 +16,7 @@
 		97279F8A23F114B500B2BAFB /* seizureDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F8923F114B500B2BAFB /* seizureDetectionTests.swift */; };
 		97279F9523F114B500B2BAFB /* seizureDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
+		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seizureDetectionUITests.swift; sourceTree = "<group>"; };
 		97279F9623F114B500B2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
+				97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */,
 				97279F7223F114B200B2BAFB /* AppDelegate.swift */,
 				97279F7423F114B200B2BAFB /* SceneDelegate.swift */,
 				97279F7623F114B200B2BAFB /* ViewController.swift */,
@@ -266,6 +269,7 @@
 				97279F7723F114B200B2BAFB /* ViewController.swift in Sources */,
 				97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */,
 				97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */,
+				97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
