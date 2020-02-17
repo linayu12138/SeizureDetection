@@ -259,10 +259,9 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUX-Wc-kSe">
-                                <rect key="frame" x="44" y="138" width="154" height="204.5"/>
+                                <rect key="frame" x="44" y="138" width="154.5" height="221"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="154" id="1j5-iX-Esr"/>
-                                    <constraint firstAttribute="height" constant="204.5" id="2SL-rE-aIf"/>
+                                    <constraint firstAttribute="height" constant="221" id="ktq-Rn-RzC"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="collect"/>
                                 <connections>
@@ -270,14 +269,14 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAY-Ys-Wr9">
-                                <rect key="frame" x="220" y="138" width="154" height="204.5"/>
+                                <rect key="frame" x="220.5" y="138" width="154.5" height="221"/>
                                 <state key="normal" title="Button" image="plot"/>
                                 <connections>
                                     <segue destination="Elj-Zf-gSd" kind="show" id="lqz-7v-xZt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJ8-s4-DlX">
-                                <rect key="frame" x="44" y="392.5" width="154" height="204.5"/>
+                                <rect key="frame" x="44" y="392.5" width="154.5" height="204.5"/>
                                 <state key="normal" title="Button" image="history"/>
                                 <connections>
                                     <segue destination="2Y8-En-Hnh" kind="show" id="SJW-Y2-PO6"/>
@@ -286,20 +285,17 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="yAY-Ys-Wr9" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="trailing" constant="22" id="6iX-8W-C82"/>
-                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="50" id="BaI-6Z-QkO"/>
-                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="leading" secondItem="tkt-Xg-LPS" secondAttribute="leading" constant="44" id="Eyp-6p-LXQ"/>
-                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HJ8-s4-DlX" secondAttribute="trailing" symbolic="YES" id="O6O-qi-fKA"/>
-                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" secondItem="yAY-Ys-Wr9" secondAttribute="trailing" constant="40" id="Qz8-t8-e3F"/>
-                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="Rlt-Eq-egu"/>
-                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="leading" id="SR3-Q4-XN0"/>
-                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="bottom" secondItem="HJ8-s4-DlX" secondAttribute="bottom" constant="265" id="Srw-Oc-ZvV"/>
-                            <constraint firstItem="yAY-Ys-Wr9" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="W49-BW-heM"/>
-                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="yAY-Ys-Wr9" secondAttribute="top" id="aIV-pW-Acw"/>
-                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="firstBaseline" secondItem="yAY-Ys-Wr9" secondAttribute="firstBaseline" id="gcr-kK-f9Z"/>
-                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="top" constant="-50" id="jfn-Z2-G2l"/>
-                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="baseline" secondItem="yAY-Ys-Wr9" secondAttribute="baseline" id="lhx-Nt-DY3"/>
-                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="height" secondItem="cUX-Wc-kSe" secondAttribute="height" id="uTy-Vm-ukQ"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="18L-0n-zNw"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="tkt-Xg-LPS" secondAttribute="top" constant="50" id="1Rj-1f-2VK"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="height" secondItem="yAY-Ys-Wr9" secondAttribute="height" id="55C-gc-CGi"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="bottom" secondItem="HJ8-s4-DlX" secondAttribute="bottom" constant="265" id="Acf-iQ-aBD"/>
+                            <constraint firstItem="yAY-Ys-Wr9" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="trailing" constant="22" id="WFJ-Rg-FAR"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="leading" secondItem="tkt-Xg-LPS" secondAttribute="leading" constant="44" id="Yxt-of-NyZ"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="33.5" id="gy2-zP-j3v"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" secondItem="HJ8-s4-DlX" secondAttribute="trailing" constant="215.5" id="i6G-wA-PFr"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="yAY-Ys-Wr9" secondAttribute="top" id="jSs-GL-v6T"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="leading" secondItem="HJ8-s4-DlX" secondAttribute="leading" id="nUm-Ez-D63"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" secondItem="yAY-Ys-Wr9" secondAttribute="trailing" constant="39" id="x4B-lD-Jdz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tkt-Xg-LPS"/>
                     </view>
