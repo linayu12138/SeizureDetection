@@ -37,6 +37,9 @@
                                 <state key="normal" title="Continue">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vo9-3S-D5V" kind="show" id="uAK-FW-aCS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-20-WKo">
                                 <rect key="frame" x="130" y="656" width="207" height="35"/>
@@ -128,7 +131,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7c-5K-uRP">
                                         <rect key="frame" x="10" y="0.0" width="396" height="2455"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <mutableString key="text">Please read these terms and conditions carefully before using Our Service.
+                                        <string key="text">Please read these terms and conditions carefully before using Our Service.
 
 Interpretation and Definitions  
 ==============================
@@ -206,7 +209,7 @@ We may terminate or suspend Your access immediately, without prior notice or
 liability, for any reason whatsoever, including without limitation if You
 breach these Terms and Conditions.
 
-Upon termination, Your right to use the Service will cease immediately.</mutableString>
+Upon termination, Your right to use the Service will cease immediately.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -247,8 +250,118 @@ Upon termination, Your right to use the Service will cease immediately.</mutable
             </objects>
             <point key="canvasLocation" x="2460.8695652173915" y="-352.23214285714283"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="7Jy-cm-FWf">
+            <objects>
+                <viewController id="vo9-3S-D5V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X10-wA-HAh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUX-Wc-kSe">
+                                <rect key="frame" x="44" y="139" width="154" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="154" id="1j5-iX-Esr"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="collect"/>
+                                <connections>
+                                    <segue destination="yb8-NH-l5E" kind="show" id="bnu-w4-3Rh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAY-Ys-Wr9">
+                                <rect key="frame" x="220" y="139" width="154" height="211"/>
+                                <state key="normal" title="Button" image="plot"/>
+                                <connections>
+                                    <segue destination="Elj-Zf-gSd" kind="show" id="lqz-7v-xZt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJ8-s4-DlX">
+                                <rect key="frame" x="44" y="386" width="154" height="211"/>
+                                <state key="normal" title="Button" image="history"/>
+                                <connections>
+                                    <segue destination="2Y8-En-Hnh" kind="show" id="SJW-Y2-PO6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="yAY-Ys-Wr9" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="trailing" constant="22" id="6iX-8W-C82"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="36" id="BaI-6Z-QkO"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="bottom" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="512" id="EZa-2o-Ukz"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="leading" secondItem="tkt-Xg-LPS" secondAttribute="leading" constant="44" id="Eyp-6p-LXQ"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="tkt-Xg-LPS" secondAttribute="top" constant="51" id="KgD-Ld-jVV"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HJ8-s4-DlX" secondAttribute="trailing" symbolic="YES" id="O6O-qi-fKA"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" secondItem="yAY-Ys-Wr9" secondAttribute="trailing" constant="40" id="Qz8-t8-e3F"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="Rlt-Eq-egu"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="leading" id="SR3-Q4-XN0"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="bottom" secondItem="HJ8-s4-DlX" secondAttribute="bottom" constant="265" id="Srw-Oc-ZvV"/>
+                            <constraint firstItem="yAY-Ys-Wr9" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="W49-BW-heM"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="yAY-Ys-Wr9" secondAttribute="top" id="aIV-pW-Acw"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="firstBaseline" secondItem="yAY-Ys-Wr9" secondAttribute="firstBaseline" id="gcr-kK-f9Z"/>
+                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="baseline" secondItem="yAY-Ys-Wr9" secondAttribute="baseline" id="lhx-Nt-DY3"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="height" secondItem="cUX-Wc-kSe" secondAttribute="height" id="uTy-Vm-ukQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tkt-Xg-LPS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cbk-2M-Ycu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSc-1g-f3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2460.8695652173915" y="560.49107142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="S7c-IN-gRM">
+            <objects>
+                <viewController id="yb8-NH-l5E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bCA-g6-YtT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="98y-Wo-DYr"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BYa-MC-OzJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1N-q2-INa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3910" y="208"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wMq-sf-32l">
+            <objects>
+                <viewController id="Elj-Zf-gSd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A9i-Qf-NlT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lN0-Ht-Bxi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8n7-em-8AX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xdy-xA-NoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3909" y="1003"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DrH-Cg-hoE">
+            <objects>
+                <viewController id="2Y8-En-Hnh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oYP-cs-bDv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZHI-vA-oPa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ey-Y0-Ged"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tyU-o4-riS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3909" y="1803"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="collect" width="250" height="362"/>
+        <image name="history" width="250" height="362"/>
         <image name="logo" width="622" height="618"/>
+        <image name="plot" width="250" height="362"/>
     </resources>
 </document>
