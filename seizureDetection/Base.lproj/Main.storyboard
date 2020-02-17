@@ -38,7 +38,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vo9-3S-D5V" kind="show" id="uAK-FW-aCS"/>
+                                    <segue destination="vo9-3S-D5V" kind="show" destinationCreationSelector="continueToMainScreen:" id="uAK-FW-aCS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-20-WKo">
@@ -259,9 +259,10 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUX-Wc-kSe">
-                                <rect key="frame" x="44" y="139" width="154" height="211"/>
+                                <rect key="frame" x="44" y="138" width="154" height="204.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="154" id="1j5-iX-Esr"/>
+                                    <constraint firstAttribute="width" constant="154" id="1j5-iX-Esr"/>
+                                    <constraint firstAttribute="height" constant="204.5" id="2SL-rE-aIf"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="collect"/>
                                 <connections>
@@ -269,14 +270,14 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAY-Ys-Wr9">
-                                <rect key="frame" x="220" y="139" width="154" height="211"/>
+                                <rect key="frame" x="220" y="138" width="154" height="204.5"/>
                                 <state key="normal" title="Button" image="plot"/>
                                 <connections>
                                     <segue destination="Elj-Zf-gSd" kind="show" id="lqz-7v-xZt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HJ8-s4-DlX">
-                                <rect key="frame" x="44" y="386" width="154" height="211"/>
+                                <rect key="frame" x="44" y="392.5" width="154" height="204.5"/>
                                 <state key="normal" title="Button" image="history"/>
                                 <connections>
                                     <segue destination="2Y8-En-Hnh" kind="show" id="SJW-Y2-PO6"/>
@@ -286,10 +287,8 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="yAY-Ys-Wr9" firstAttribute="leading" secondItem="cUX-Wc-kSe" secondAttribute="trailing" constant="22" id="6iX-8W-C82"/>
-                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="36" id="BaI-6Z-QkO"/>
-                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="bottom" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="512" id="EZa-2o-Ukz"/>
+                            <constraint firstItem="HJ8-s4-DlX" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="bottom" constant="50" id="BaI-6Z-QkO"/>
                             <constraint firstItem="cUX-Wc-kSe" firstAttribute="leading" secondItem="tkt-Xg-LPS" secondAttribute="leading" constant="44" id="Eyp-6p-LXQ"/>
-                            <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="tkt-Xg-LPS" secondAttribute="top" constant="51" id="KgD-Ld-jVV"/>
                             <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HJ8-s4-DlX" secondAttribute="trailing" symbolic="YES" id="O6O-qi-fKA"/>
                             <constraint firstItem="tkt-Xg-LPS" firstAttribute="trailing" secondItem="yAY-Ys-Wr9" secondAttribute="trailing" constant="40" id="Qz8-t8-e3F"/>
                             <constraint firstItem="HJ8-s4-DlX" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="Rlt-Eq-egu"/>
@@ -298,6 +297,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                             <constraint firstItem="yAY-Ys-Wr9" firstAttribute="width" secondItem="cUX-Wc-kSe" secondAttribute="width" id="W49-BW-heM"/>
                             <constraint firstItem="cUX-Wc-kSe" firstAttribute="top" secondItem="yAY-Ys-Wr9" secondAttribute="top" id="aIV-pW-Acw"/>
                             <constraint firstItem="cUX-Wc-kSe" firstAttribute="firstBaseline" secondItem="yAY-Ys-Wr9" secondAttribute="firstBaseline" id="gcr-kK-f9Z"/>
+                            <constraint firstItem="tkt-Xg-LPS" firstAttribute="top" secondItem="cUX-Wc-kSe" secondAttribute="top" constant="-50" id="jfn-Z2-G2l"/>
                             <constraint firstItem="cUX-Wc-kSe" firstAttribute="baseline" secondItem="yAY-Ys-Wr9" secondAttribute="baseline" id="lhx-Nt-DY3"/>
                             <constraint firstItem="HJ8-s4-DlX" firstAttribute="height" secondItem="cUX-Wc-kSe" secondAttribute="height" id="uTy-Vm-ukQ"/>
                         </constraints>
