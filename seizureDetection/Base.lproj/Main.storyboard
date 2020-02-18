@@ -38,7 +38,8 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vo9-3S-D5V" kind="show" destinationCreationSelector="continueToMainScreen:" id="uAK-FW-aCS"/>
+                                    <action selector="continueToMain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8k2-CS-QG4"/>
+                                    <segue destination="vo9-3S-D5V" kind="show" identifier="toMain" id="uAK-FW-aCS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7B-20-WKo">
@@ -88,6 +89,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="0R6-VQ-N2c"/>
+                    <connections>
+                        <outlet property="termCheckBox" destination="Vv0-Tt-dUY" id="zeh-mr-Djy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
