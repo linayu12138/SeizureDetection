@@ -11,7 +11,7 @@
 
 #import "MSWeakTimer/MSWeakTimer.h"
 #import "NSObject+ENHThrottledReloading.h"
-#import "ISColorWheel.h"
+//#import "ISColorWheel.h"
 
 #if TARGET_OS_MACCATALYST
     // ImageMagick libs are not compiled for macOS
