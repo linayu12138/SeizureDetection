@@ -13,8 +13,60 @@
 		97279F7A23F114B200B2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7823F114B200B2BAFB /* Main.storyboard */; };
 		97279F7C23F114B500B2BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7B23F114B500B2BAFB /* Assets.xcassets */; };
 		97279F7F23F114B500B2BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */; };
-		97279F8A23F114B500B2BAFB /* seizureDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F8923F114B500B2BAFB /* seizureDetectionTests.swift */; };
-		97279F9523F114B500B2BAFB /* seizureDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */; };
+		975967D823FC70550088FC7B /* PeripheralModulesDeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967D423FC70550088FC7B /* PeripheralModulesDeviceTableViewCell.swift */; };
+		975967D923FC70550088FC7B /* PeripheralModulesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967D523FC70550088FC7B /* PeripheralModulesTableViewCell.swift */; };
+		975967DA23FC70550088FC7B /* PeripheralModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967D623FC70550088FC7B /* PeripheralModeViewController.swift */; };
+		975967DB23FC70550088FC7B /* PeripheralModulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967D723FC70550088FC7B /* PeripheralModulesViewController.swift */; };
+		975967ED23FC70740088FC7B /* ScanningAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967E823FC70740088FC7B /* ScanningAnimationViewController.swift */; };
+		975967EE23FC70740088FC7B /* FilterTextSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967E923FC70740088FC7B /* FilterTextSettingsViewController.swift */; };
+		975967EF23FC70740088FC7B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967EA23FC70740088FC7B /* AboutViewController.swift */; };
+		975967F023FC70740088FC7B /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967EB23FC70740088FC7B /* PeripheralTableViewCell.swift */; };
+		975967F123FC70740088FC7B /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967EC23FC70740088FC7B /* ScannerViewController.swift */; };
+		9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F423FC70840088FC7B /* UartPacketManagerBase.swift */; };
+		9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */; };
+		9759680C23FC70840088FC7B /* DeviceInformationPeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */; };
+		9759680D23FC70840088FC7B /* GattServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F823FC70840088FC7B /* GattServer.swift */; };
+		9759680E23FC70840088FC7B /* PeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F923FC70840088FC7B /* PeripheralService.swift */; };
+		9759680F23FC70840088FC7B /* UartPeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967FA23FC70840088FC7B /* UartPeripheralService.swift */; };
+		9759681023FC70840088FC7B /* BleUUIDNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967FC23FC70840088FC7B /* BleUUIDNames.swift */; };
+		9759681123FC70840088FC7B /* BlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967FD23FC70840088FC7B /* BlePeripheral.swift */; };
+		9759681223FC70840088FC7B /* BleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967FE23FC70840088FC7B /* BleManager.swift */; };
+		9759681323FC70840088FC7B /* UartLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967FF23FC70840088FC7B /* UartLogManager.swift */; };
+		9759681423FC70840088FC7B /* UartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680023FC70840088FC7B /* UartDataManager.swift */; };
+		9759681523FC70840088FC7B /* UartPacketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680123FC70840088FC7B /* UartPacketManager.swift */; };
+		9759681623FC70840088FC7B /* BlePeripheral+Uart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680223FC70840088FC7B /* BlePeripheral+Uart.swift */; };
+		9759681723FC70840088FC7B /* BlePeripheral+Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680323FC70840088FC7B /* BlePeripheral+Battery.swift */; };
+		9759681823FC70840088FC7B /* HexUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680523FC70840088FC7B /* HexUtils.swift */; };
+		9759681923FC70840088FC7B /* Int+Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680623FC70840088FC7B /* Int+Bytes.swift */; };
+		9759681A23FC70840088FC7B /* CommandQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680723FC70840088FC7B /* CommandQueue.swift */; };
+		9759681B23FC70840088FC7B /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680823FC70840088FC7B /* LogHelper.swift */; };
+		9759681C23FC70840088FC7B /* Data+ScanValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680923FC70840088FC7B /* Data+ScanValue.swift */; };
+		97597CA623FC73890088FC7B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CA523FC73890088FC7B /* libxml2.tbd */; };
+		97597CA823FC73AE0088FC7B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CA723FC73AE0088FC7B /* libz.tbd */; };
+		97597CAC23FC75C50088FC7B /* Pods_Bluefruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; };
+		9759827223FC78B70088FC7B /* quantization-table.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759825D23FC78B70088FC7B /* quantization-table.xml */; };
+		9759827323FC78B70088FC7B /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759825E23FC78B70088FC7B /* colors.xml */; };
+		9759827423FC78B70088FC7B /* type-windows.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759825F23FC78B70088FC7B /* type-windows.xml */; };
+		9759827523FC78B70088FC7B /* coder.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826023FC78B70088FC7B /* coder.xml */; };
+		9759827623FC78B70088FC7B /* type.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826123FC78B70088FC7B /* type.xml */; };
+		9759827723FC78B70088FC7B /* policy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826223FC78B70088FC7B /* policy.xml */; };
+		9759827823FC78B70088FC7B /* delegates.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826323FC78B70088FC7B /* delegates.xml */; };
+		9759827923FC78B70088FC7B /* thresholds.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826423FC78B70088FC7B /* thresholds.xml */; };
+		9759827A23FC78B70088FC7B /* mime.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826523FC78B70088FC7B /* mime.xml */; };
+		9759827B23FC78B70088FC7B /* type-ghostscript.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826623FC78B70088FC7B /* type-ghostscript.xml */; };
+		9759827C23FC78B70088FC7B /* log.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826723FC78B70088FC7B /* log.xml */; };
+		9759827D23FC78B70088FC7B /* francais.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826823FC78B70088FC7B /* francais.xml */; };
+		9759827E23FC78B70088FC7B /* magic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826923FC78B70088FC7B /* magic.xml */; };
+		9759827F23FC78B70088FC7B /* type-dejavu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826A23FC78B70088FC7B /* type-dejavu.xml */; };
+		9759828023FC78B70088FC7B /* locale.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826B23FC78B70088FC7B /* locale.xml */; };
+		9759828123FC78B70088FC7B /* english.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9759826C23FC78B70088FC7B /* english.xml */; };
+		9759828223FC78B70088FC7B /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759826D23FC78B70088FC7B /* libpng.a */; };
+		9759828323FC78B70088FC7B /* libtiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759826E23FC78B70088FC7B /* libtiff.a */; };
+		9759828423FC78B70088FC7B /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759826F23FC78B70088FC7B /* libjpeg.a */; };
+		9759828523FC78B70088FC7B /* libMagickCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759827023FC78B70088FC7B /* libMagickCore.a */; };
+		9759828623FC78B70088FC7B /* libMagickWand.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9759827123FC78B70088FC7B /* libMagickWand.a */; };
+		97598CD823FCDCBA0088FC7B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598CD723FCDCBA0088FC7B /* Config.swift */; };
+		97598CDB23FCE4CE0088FC7B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97598CDA23FCE4CE0088FC7B /* Settings.bundle */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -44,13 +96,202 @@
 		97279F7923F114B200B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97279F7B23F114B500B2BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97279F7E23F114B500B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97279F8023F114B500B2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97279F8523F114B500B2BAFB /* seizureDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97279F8923F114B500B2BAFB /* seizureDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seizureDetectionTests.swift; sourceTree = "<group>"; };
-		97279F8B23F114B500B2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seizureDetectionUITests.swift; sourceTree = "<group>"; };
-		97279F9623F114B500B2BAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975967D423FC70550088FC7B /* PeripheralModulesDeviceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModulesDeviceTableViewCell.swift; sourceTree = "<group>"; };
+		975967D523FC70550088FC7B /* PeripheralModulesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModulesTableViewCell.swift; sourceTree = "<group>"; };
+		975967D623FC70550088FC7B /* PeripheralModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModeViewController.swift; sourceTree = "<group>"; };
+		975967D723FC70550088FC7B /* PeripheralModulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralModulesViewController.swift; sourceTree = "<group>"; };
+		975967E823FC70740088FC7B /* ScanningAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanningAnimationViewController.swift; sourceTree = "<group>"; };
+		975967E923FC70740088FC7B /* FilterTextSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTextSettingsViewController.swift; sourceTree = "<group>"; };
+		975967EA23FC70740088FC7B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		975967EB23FC70740088FC7B /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
+		975967EC23FC70740088FC7B /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		975967F423FC70840088FC7B /* UartPacketManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManagerBase.swift; sourceTree = "<group>"; };
+		975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPeripheralModePacketManager.swift; sourceTree = "<group>"; };
+		975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationPeripheralService.swift; sourceTree = "<group>"; };
+		975967F823FC70840088FC7B /* GattServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GattServer.swift; sourceTree = "<group>"; };
+		975967F923FC70840088FC7B /* PeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralService.swift; sourceTree = "<group>"; };
+		975967FA23FC70840088FC7B /* UartPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPeripheralService.swift; sourceTree = "<group>"; };
+		975967FC23FC70840088FC7B /* BleUUIDNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleUUIDNames.swift; sourceTree = "<group>"; };
+		975967FD23FC70840088FC7B /* BlePeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlePeripheral.swift; sourceTree = "<group>"; };
+		975967FE23FC70840088FC7B /* BleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleManager.swift; sourceTree = "<group>"; };
+		975967FF23FC70840088FC7B /* UartLogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartLogManager.swift; sourceTree = "<group>"; };
+		9759680023FC70840088FC7B /* UartDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartDataManager.swift; sourceTree = "<group>"; };
+		9759680123FC70840088FC7B /* UartPacketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManager.swift; sourceTree = "<group>"; };
+		9759680223FC70840088FC7B /* BlePeripheral+Uart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlePeripheral+Uart.swift"; sourceTree = "<group>"; };
+		9759680323FC70840088FC7B /* BlePeripheral+Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BlePeripheral+Battery.swift"; sourceTree = "<group>"; };
+		9759680523FC70840088FC7B /* HexUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexUtils.swift; sourceTree = "<group>"; };
+		9759680623FC70840088FC7B /* Int+Bytes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Bytes.swift"; sourceTree = "<group>"; };
+		9759680723FC70840088FC7B /* CommandQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandQueue.swift; sourceTree = "<group>"; };
+		9759680823FC70840088FC7B /* LogHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogHelper.swift; sourceTree = "<group>"; };
+		9759680923FC70840088FC7B /* Data+ScanValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+ScanValue.swift"; sourceTree = "<group>"; };
+		97597CA523FC73890088FC7B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		97597CA723FC73AE0088FC7B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		97597CAA23FC75650088FC7B /* Bluefruit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bluefruit-Bridging-Header.h"; sourceTree = "<group>"; };
+		97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Bluefruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975981D623FC78B70088FC7B /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = png.h; sourceTree = "<group>"; };
+		975981D723FC78B70088FC7B /* pnglibconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pnglibconf.h; sourceTree = "<group>"; };
+		975981D823FC78B70088FC7B /* pngconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pngconf.h; sourceTree = "<group>"; };
+		975981DA23FC78B70088FC7B /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		975981DB23FC78B70088FC7B /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		975981DC23FC78B70088FC7B /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		975981DD23FC78B70088FC7B /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		975981DF23FC78B70088FC7B /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		975981E023FC78B70088FC7B /* gem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gem.h; sourceTree = "<group>"; };
+		975981E123FC78B70088FC7B /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
+		975981E223FC78B70088FC7B /* distribute-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "distribute-cache.h"; sourceTree = "<group>"; };
+		975981E323FC78B70088FC7B /* morphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morphology.h; sourceTree = "<group>"; };
+		975981E423FC78B70088FC7B /* semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = semaphore.h; sourceTree = "<group>"; };
+		975981E523FC78B70088FC7B /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		975981E623FC78B70088FC7B /* resample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		975981E723FC78B70088FC7B /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composite.h; sourceTree = "<group>"; };
+		975981E823FC78B70088FC7B /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegate.h; sourceTree = "<group>"; };
+		975981E923FC78B70088FC7B /* enhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enhance.h; sourceTree = "<group>"; };
+		975981EA23FC78B70088FC7B /* shear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shear.h; sourceTree = "<group>"; };
+		975981EB23FC78B70088FC7B /* studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studio.h; sourceTree = "<group>"; };
+		975981EC23FC78B70088FC7B /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animate.h; sourceTree = "<group>"; };
+		975981ED23FC78B70088FC7B /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		975981EE23FC78B70088FC7B /* mime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mime.h; sourceTree = "<group>"; };
+		975981EF23FC78B70088FC7B /* annotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotate.h; sourceTree = "<group>"; };
+		975981F023FC78B70088FC7B /* pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixel.h; sourceTree = "<group>"; };
+		975981F123FC78B70088FC7B /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		975981F223FC78B70088FC7B /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
+		975981F323FC78B70088FC7B /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		975981F423FC78B70088FC7B /* profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profile.h; sourceTree = "<group>"; };
+		975981F523FC78B70088FC7B /* locale_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locale_.h; sourceTree = "<group>"; };
+		975981F623FC78B70088FC7B /* policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = policy.h; sourceTree = "<group>"; };
+		975981F723FC78B70088FC7B /* distort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distort.h; sourceTree = "<group>"; };
+		975981F823FC78B70088FC7B /* segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segment.h; sourceTree = "<group>"; };
+		975981F923FC78B70088FC7B /* PreRvIcccm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreRvIcccm.h; sourceTree = "<group>"; };
+		975981FA23FC78B70088FC7B /* fx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fx.h; sourceTree = "<group>"; };
+		975981FB23FC78B70088FC7B /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		975981FC23FC78B70088FC7B /* opencl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencl.h; sourceTree = "<group>"; };
+		975981FD23FC78B70088FC7B /* splay-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "splay-tree.h"; sourceTree = "<group>"; };
+		975981FE23FC78B70088FC7B /* feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature.h; sourceTree = "<group>"; };
+		975981FF23FC78B70088FC7B /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		9759820023FC78B70088FC7B /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = "<group>"; };
+		9759820123FC78B70088FC7B /* magick-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-config.h"; sourceTree = "<group>"; };
+		9759820223FC78B70088FC7B /* string_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_.h; sourceTree = "<group>"; };
+		9759820323FC78B70088FC7B /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
+		9759820423FC78B70088FC7B /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		9759820523FC78B70088FC7B /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		9759820623FC78B70088FC7B /* magick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magick.h; sourceTree = "<group>"; };
+		9759820723FC78B70088FC7B /* configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configure.h; sourceTree = "<group>"; };
+		9759820823FC78B70088FC7B /* hashmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashmap.h; sourceTree = "<group>"; };
+		9759820923FC78B70088FC7B /* xwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xwindow.h; sourceTree = "<group>"; };
+		9759820A23FC78B70088FC7B /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		9759820B23FC78B70088FC7B /* ImageMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMagick.h; sourceTree = "<group>"; };
+		9759820C23FC78B70088FC7B /* decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decorate.h; sourceTree = "<group>"; };
+		9759820D23FC78B70088FC7B /* registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registry.h; sourceTree = "<group>"; };
+		9759820E23FC78B70088FC7B /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = montage.h; sourceTree = "<group>"; };
+		9759820F23FC78B70088FC7B /* threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threshold.h; sourceTree = "<group>"; };
+		9759821023FC78B70088FC7B /* cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cipher.h; sourceTree = "<group>"; };
+		9759821123FC78B70088FC7B /* artifact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = artifact.h; sourceTree = "<group>"; };
+		9759821223FC78B70088FC7B /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "method-attribute.h"; sourceTree = "<group>"; };
+		9759821323FC78B70088FC7B /* accelerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accelerate.h; sourceTree = "<group>"; };
+		9759821423FC78B70088FC7B /* resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resize.h; sourceTree = "<group>"; };
+		9759821523FC78B70088FC7B /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		9759821623FC78B70088FC7B /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		9759821723FC78B70088FC7B /* option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = option.h; sourceTree = "<group>"; };
+		9759821823FC78B70088FC7B /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		9759821923FC78B70088FC7B /* image-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "image-view.h"; sourceTree = "<group>"; };
+		9759821A23FC78B70088FC7B /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		9759821B23FC78B70088FC7B /* MagickCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickCore.h; sourceTree = "<group>"; };
+		9759821C23FC78B70088FC7B /* monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = monitor.h; sourceTree = "<group>"; };
+		9759821D23FC78B70088FC7B /* magick-baseconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-baseconfig.h"; sourceTree = "<group>"; };
+		9759821E23FC78B70088FC7B /* xml-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "xml-tree.h"; sourceTree = "<group>"; };
+		9759821F23FC78B70088FC7B /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		9759822023FC78B70088FC7B /* magick-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-type.h"; sourceTree = "<group>"; };
+		9759822123FC78B70088FC7B /* pixel-accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-accessor.h"; sourceTree = "<group>"; };
+		9759822223FC78B70088FC7B /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		9759822323FC78B70088FC7B /* compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compress.h; sourceTree = "<group>"; };
+		9759822423FC78B70088FC7B /* prepress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prepress.h; sourceTree = "<group>"; };
+		9759822523FC78B70088FC7B /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		9759822623FC78B70088FC7B /* memory_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_.h; sourceTree = "<group>"; };
+		9759822723FC78B70088FC7B /* cache-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cache-view.h"; sourceTree = "<group>"; };
+		9759822823FC78B70088FC7B /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
+		9759822923FC78B70088FC7B /* fourier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourier.h; sourceTree = "<group>"; };
+		9759822A23FC78B70088FC7B /* colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspace.h; sourceTree = "<group>"; };
+		9759822B23FC78B70088FC7B /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		9759822C23FC78B70088FC7B /* statistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistic.h; sourceTree = "<group>"; };
+		9759822D23FC78B70088FC7B /* effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effect.h; sourceTree = "<group>"; };
+		9759822E23FC78B70088FC7B /* property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = property.h; sourceTree = "<group>"; };
+		9759822F23FC78B70088FC7B /* colormap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colormap.h; sourceTree = "<group>"; };
+		9759823023FC78B70088FC7B /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
+		9759823123FC78B70088FC7B /* quantum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantum.h; sourceTree = "<group>"; };
+		9759823223FC78B70088FC7B /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		9759823323FC78B70088FC7B /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		9759823423FC78B70088FC7B /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deprecate.h; sourceTree = "<group>"; };
+		9759823523FC78B70088FC7B /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		9759823623FC78B70088FC7B /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identify.h; sourceTree = "<group>"; };
+		9759823723FC78B70088FC7B /* coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coder.h; sourceTree = "<group>"; };
+		9759823823FC78B70088FC7B /* random_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_.h; sourceTree = "<group>"; };
+		9759823923FC78B70088FC7B /* paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paint.h; sourceTree = "<group>"; };
+		9759823A23FC78B70088FC7B /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		9759823B23FC78B70088FC7B /* resource_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource_.h; sourceTree = "<group>"; };
+		9759823C23FC78B70088FC7B /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
+		9759823D23FC78B70088FC7B /* constitute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constitute.h; sourceTree = "<group>"; };
+		9759823E23FC78B70088FC7B /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		9759823F23FC78B70088FC7B /* methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = methods.h; sourceTree = "<group>"; };
+		9759824123FC78B70088FC7B /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composite.h; sourceTree = "<group>"; };
+		9759824223FC78B70088FC7B /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animate.h; sourceTree = "<group>"; };
+		9759824323FC78B70088FC7B /* conjure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conjure.h; sourceTree = "<group>"; };
+		9759824423FC78B70088FC7B /* magick_wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magick_wand.h; sourceTree = "<group>"; };
+		9759824523FC78B70088FC7B /* magick-property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-property.h"; sourceTree = "<group>"; };
+		9759824623FC78B70088FC7B /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		9759824723FC78B70088FC7B /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = montage.h; sourceTree = "<group>"; };
+		9759824823FC78B70088FC7B /* mogrify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mogrify.h; sourceTree = "<group>"; };
+		9759824923FC78B70088FC7B /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "method-attribute.h"; sourceTree = "<group>"; };
+		9759824A23FC78B70088FC7B /* magick-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-wand.h"; sourceTree = "<group>"; };
+		9759824B23FC78B70088FC7B /* MagickWand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickWand.h; sourceTree = "<group>"; };
+		9759824C23FC78B70088FC7B /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		9759824D23FC78B70088FC7B /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		9759824E23FC78B70088FC7B /* drawing-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "drawing-wand.h"; sourceTree = "<group>"; };
+		9759824F23FC78B70088FC7B /* magick-image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-image.h"; sourceTree = "<group>"; };
+		9759825023FC78B70088FC7B /* pixel-iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-iterator.h"; sourceTree = "<group>"; };
+		9759825123FC78B70088FC7B /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = import.h; sourceTree = "<group>"; };
+		9759825223FC78B70088FC7B /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
+		9759825323FC78B70088FC7B /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deprecate.h; sourceTree = "<group>"; };
+		9759825423FC78B70088FC7B /* wand-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wand-view.h"; sourceTree = "<group>"; };
+		9759825523FC78B70088FC7B /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identify.h; sourceTree = "<group>"; };
+		9759825623FC78B70088FC7B /* pixel-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-wand.h"; sourceTree = "<group>"; };
+		9759825823FC78B70088FC7B /* tiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiff.h; sourceTree = "<group>"; };
+		9759825923FC78B70088FC7B /* tiffvers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffvers.h; sourceTree = "<group>"; };
+		9759825A23FC78B70088FC7B /* tiffio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffio.h; sourceTree = "<group>"; };
+		9759825B23FC78B70088FC7B /* tiffconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tiffconf.h; sourceTree = "<group>"; };
+		9759825D23FC78B70088FC7B /* quantization-table.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "quantization-table.xml"; sourceTree = "<group>"; };
+		9759825E23FC78B70088FC7B /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
+		9759825F23FC78B70088FC7B /* type-windows.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "type-windows.xml"; sourceTree = "<group>"; };
+		9759826023FC78B70088FC7B /* coder.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = coder.xml; sourceTree = "<group>"; };
+		9759826123FC78B70088FC7B /* type.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = type.xml; sourceTree = "<group>"; };
+		9759826223FC78B70088FC7B /* policy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = policy.xml; sourceTree = "<group>"; };
+		9759826323FC78B70088FC7B /* delegates.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = delegates.xml; sourceTree = "<group>"; };
+		9759826423FC78B70088FC7B /* thresholds.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = thresholds.xml; sourceTree = "<group>"; };
+		9759826523FC78B70088FC7B /* mime.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mime.xml; sourceTree = "<group>"; };
+		9759826623FC78B70088FC7B /* type-ghostscript.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "type-ghostscript.xml"; sourceTree = "<group>"; };
+		9759826723FC78B70088FC7B /* log.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = log.xml; sourceTree = "<group>"; };
+		9759826823FC78B70088FC7B /* francais.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = francais.xml; sourceTree = "<group>"; };
+		9759826923FC78B70088FC7B /* magic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = magic.xml; sourceTree = "<group>"; };
+		9759826A23FC78B70088FC7B /* type-dejavu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "type-dejavu.xml"; sourceTree = "<group>"; };
+		9759826B23FC78B70088FC7B /* locale.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = locale.xml; sourceTree = "<group>"; };
+		9759826C23FC78B70088FC7B /* english.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = english.xml; sourceTree = "<group>"; };
+		9759826D23FC78B70088FC7B /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		9759826E23FC78B70088FC7B /* libtiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtiff.a; sourceTree = "<group>"; };
+		9759826F23FC78B70088FC7B /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		9759827023FC78B70088FC7B /* libMagickCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMagickCore.a; sourceTree = "<group>"; };
+		9759827123FC78B70088FC7B /* libMagickWand.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMagickWand.a; sourceTree = "<group>"; };
+		97598CCA23FCD60C0088FC7B /* Pods-macOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-macOS.debug.xcconfig"; path = "../../../Bluefruit_LE_Connect_v2/Pods/Target Support Files/Pods-macOS/Pods-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		97598CCB23FCD60D0088FC7B /* Pods-Bluefruit.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Bluefruit.debug.xcconfig"; sourceTree = "<group>"; };
+		97598CCC23FCD60D0088FC7B /* Pods-macOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-macOS.release.xcconfig"; path = "../../../Bluefruit_LE_Connect_v2/Pods/Target Support Files/Pods-macOS/Pods-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		97598CCD23FCD60D0088FC7B /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "../../../Bluefruit_LE_Connect_v2/Pods/Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		97598CCE23FCD60D0088FC7B /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "../../../Bluefruit_LE_Connect_v2/Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		97598CCF23FCD60D0088FC7B /* Pods-Bluefruit.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Bluefruit.release.xcconfig"; sourceTree = "<group>"; };
+		97598CD623FCDCAA0088FC7B /* Bluefruit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bluefruit.entitlements; sourceTree = "<group>"; };
+		97598CD723FCDCBA0088FC7B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		97598CDA23FCE4CE0088FC7B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		97598CDD23FCF2080088FC7B /* Pods_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Pods_macOS.framework; path = "../../../Library/Developer/Xcode/DerivedData/Bluefruit-blvyyjoelatdlzebwbvwcnzkkaaa/Build/Products/Debug-iphoneos/Pods_macOS.framework"; sourceTree = "<group>"; };
+		97598CDE23FCF24E0088FC7B /* MSWeakTimer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MSWeakTimer.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Bluefruit-dmkhqsvflzefijclzyzxtgovigqc/Build/Products/Debug/MSWeakTimer-OSX/MSWeakTimer.framework"; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +301,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97597CAC23FC75C50088FC7B /* Pods_Bluefruit.framework in Frameworks */,
+				97597CA823FC73AE0088FC7B /* libz.tbd in Frameworks */,
+				97597CA623FC73890088FC7B /* libxml2.tbd in Frameworks */,
+				9759828623FC78B70088FC7B /* libMagickWand.a in Frameworks */,
+				9759828223FC78B70088FC7B /* libpng.a in Frameworks */,
+				9759828323FC78B70088FC7B /* libtiff.a in Frameworks */,
+				9759828523FC78B70088FC7B /* libMagickCore.a in Frameworks */,
+				9759828423FC78B70088FC7B /* libjpeg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +333,9 @@
 			isa = PBXGroup;
 			children = (
 				97279F7123F114B200B2BAFB /* seizureDetection */,
-				97279F8823F114B500B2BAFB /* seizureDetectionTests */,
-				97279F9323F114B500B2BAFB /* seizureDetectionUITests */,
+				97598CC923FCD5F50088FC7B /* Pods */,
 				97279F7023F114B200B2BAFB /* Products */,
+				97597CA423FC73880088FC7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +352,14 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
+				97598CD723FCDCBA0088FC7B /* Config.swift */,
+				97597CAA23FC75650088FC7B /* Bluefruit-Bridging-Header.h */,
+				97598CD623FCDCAA0088FC7B /* Bluefruit.entitlements */,
+				97598CDA23FCE4CE0088FC7B /* Settings.bundle */,
+				975981D223FC789A0088FC7B /* External Tools */,
+				975967F223FC70840088FC7B /* AdafruitKit */,
+				975967E723FC70740088FC7B /* Scanner */,
+				975967D323FC70550088FC7B /* PeripheralModules */,
 				97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */,
 				97279F7223F114B200B2BAFB /* AppDelegate.swift */,
 				97279F7423F114B200B2BAFB /* SceneDelegate.swift */,
@@ -111,27 +368,337 @@
 				97279F7823F114B200B2BAFB /* Main.storyboard */,
 				97279F7B23F114B500B2BAFB /* Assets.xcassets */,
 				97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */,
-				97279F8023F114B500B2BAFB /* Info.plist */,
 			);
 			path = seizureDetection;
 			sourceTree = "<group>";
 		};
-		97279F8823F114B500B2BAFB /* seizureDetectionTests */ = {
+		975967D323FC70550088FC7B /* PeripheralModules */ = {
 			isa = PBXGroup;
 			children = (
-				97279F8923F114B500B2BAFB /* seizureDetectionTests.swift */,
-				97279F8B23F114B500B2BAFB /* Info.plist */,
+				975967D423FC70550088FC7B /* PeripheralModulesDeviceTableViewCell.swift */,
+				975967D523FC70550088FC7B /* PeripheralModulesTableViewCell.swift */,
+				975967D623FC70550088FC7B /* PeripheralModeViewController.swift */,
+				975967D723FC70550088FC7B /* PeripheralModulesViewController.swift */,
 			);
-			path = seizureDetectionTests;
+			path = PeripheralModules;
 			sourceTree = "<group>";
 		};
-		97279F9323F114B500B2BAFB /* seizureDetectionUITests */ = {
+		975967E723FC70740088FC7B /* Scanner */ = {
 			isa = PBXGroup;
 			children = (
-				97279F9423F114B500B2BAFB /* seizureDetectionUITests.swift */,
-				97279F9623F114B500B2BAFB /* Info.plist */,
+				975967E823FC70740088FC7B /* ScanningAnimationViewController.swift */,
+				975967E923FC70740088FC7B /* FilterTextSettingsViewController.swift */,
+				975967EA23FC70740088FC7B /* AboutViewController.swift */,
+				975967EB23FC70740088FC7B /* PeripheralTableViewCell.swift */,
+				975967EC23FC70740088FC7B /* ScannerViewController.swift */,
 			);
-			path = seizureDetectionUITests;
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		975967F223FC70840088FC7B /* AdafruitKit */ = {
+			isa = PBXGroup;
+			children = (
+				975967F323FC70840088FC7B /* Ble */,
+				9759680423FC70840088FC7B /* Utils */,
+			);
+			path = AdafruitKit;
+			sourceTree = "<group>";
+		};
+		975967F323FC70840088FC7B /* Ble */ = {
+			isa = PBXGroup;
+			children = (
+				975967F423FC70840088FC7B /* UartPacketManagerBase.swift */,
+				975967F523FC70840088FC7B /* BlePeripheralMode */,
+				975967FB23FC70840088FC7B /* BleCentralMode */,
+			);
+			path = Ble;
+			sourceTree = "<group>";
+		};
+		975967F523FC70840088FC7B /* BlePeripheralMode */ = {
+			isa = PBXGroup;
+			children = (
+				975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */,
+				975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */,
+				975967F823FC70840088FC7B /* GattServer.swift */,
+				975967F923FC70840088FC7B /* PeripheralService.swift */,
+				975967FA23FC70840088FC7B /* UartPeripheralService.swift */,
+			);
+			path = BlePeripheralMode;
+			sourceTree = "<group>";
+		};
+		975967FB23FC70840088FC7B /* BleCentralMode */ = {
+			isa = PBXGroup;
+			children = (
+				975967FC23FC70840088FC7B /* BleUUIDNames.swift */,
+				975967FD23FC70840088FC7B /* BlePeripheral.swift */,
+				975967FE23FC70840088FC7B /* BleManager.swift */,
+				975967FF23FC70840088FC7B /* UartLogManager.swift */,
+				9759680023FC70840088FC7B /* UartDataManager.swift */,
+				9759680123FC70840088FC7B /* UartPacketManager.swift */,
+				9759680223FC70840088FC7B /* BlePeripheral+Uart.swift */,
+				9759680323FC70840088FC7B /* BlePeripheral+Battery.swift */,
+			);
+			path = BleCentralMode;
+			sourceTree = "<group>";
+		};
+		9759680423FC70840088FC7B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9759680523FC70840088FC7B /* HexUtils.swift */,
+				9759680623FC70840088FC7B /* Int+Bytes.swift */,
+				9759680723FC70840088FC7B /* CommandQueue.swift */,
+				9759680823FC70840088FC7B /* LogHelper.swift */,
+				9759680923FC70840088FC7B /* Data+ScanValue.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		97597CA423FC73880088FC7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */,
+				97598CDD23FCF2080088FC7B /* Pods_macOS.framework */,
+				97598CDE23FCF24E0088FC7B /* MSWeakTimer.framework */,
+				97597CA723FC73AE0088FC7B /* libz.tbd */,
+				97597CA523FC73890088FC7B /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		975981D223FC789A0088FC7B /* External Tools */ = {
+			isa = PBXGroup;
+			children = (
+				975981D323FC78B70088FC7B /* iOSMagick-6.8.8-9-libs */,
+			);
+			path = "External Tools";
+			sourceTree = "<group>";
+		};
+		975981D323FC78B70088FC7B /* iOSMagick-6.8.8-9-libs */ = {
+			isa = PBXGroup;
+			children = (
+				975981D423FC78B70088FC7B /* include */,
+				9759826D23FC78B70088FC7B /* libpng.a */,
+				9759826E23FC78B70088FC7B /* libtiff.a */,
+				9759826F23FC78B70088FC7B /* libjpeg.a */,
+				9759827023FC78B70088FC7B /* libMagickCore.a */,
+				9759827123FC78B70088FC7B /* libMagickWand.a */,
+			);
+			path = "iOSMagick-6.8.8-9-libs";
+			sourceTree = "<group>";
+		};
+		975981D423FC78B70088FC7B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				975981D523FC78B70088FC7B /* png */,
+				975981D923FC78B70088FC7B /* jpeg */,
+				975981DE23FC78B70088FC7B /* magick */,
+				9759824023FC78B70088FC7B /* wand */,
+				9759825723FC78B70088FC7B /* tiff */,
+				9759825C23FC78B70088FC7B /* im_config */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		975981D523FC78B70088FC7B /* png */ = {
+			isa = PBXGroup;
+			children = (
+				975981D623FC78B70088FC7B /* png.h */,
+				975981D723FC78B70088FC7B /* pnglibconf.h */,
+				975981D823FC78B70088FC7B /* pngconf.h */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		975981D923FC78B70088FC7B /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				975981DA23FC78B70088FC7B /* jpeglib.h */,
+				975981DB23FC78B70088FC7B /* jerror.h */,
+				975981DC23FC78B70088FC7B /* jconfig.h */,
+				975981DD23FC78B70088FC7B /* jmorecfg.h */,
+			);
+			path = jpeg;
+			sourceTree = "<group>";
+		};
+		975981DE23FC78B70088FC7B /* magick */ = {
+			isa = PBXGroup;
+			children = (
+				975981DF23FC78B70088FC7B /* type.h */,
+				975981E023FC78B70088FC7B /* gem.h */,
+				975981E123FC78B70088FC7B /* signature.h */,
+				975981E223FC78B70088FC7B /* distribute-cache.h */,
+				975981E323FC78B70088FC7B /* morphology.h */,
+				975981E423FC78B70088FC7B /* semaphore.h */,
+				975981E523FC78B70088FC7B /* quantize.h */,
+				975981E623FC78B70088FC7B /* resample.h */,
+				975981E723FC78B70088FC7B /* composite.h */,
+				975981E823FC78B70088FC7B /* delegate.h */,
+				975981E923FC78B70088FC7B /* enhance.h */,
+				975981EA23FC78B70088FC7B /* shear.h */,
+				975981EB23FC78B70088FC7B /* studio.h */,
+				975981EC23FC78B70088FC7B /* animate.h */,
+				975981ED23FC78B70088FC7B /* channel.h */,
+				975981EE23FC78B70088FC7B /* mime.h */,
+				975981EF23FC78B70088FC7B /* annotate.h */,
+				975981F023FC78B70088FC7B /* pixel.h */,
+				975981F123FC78B70088FC7B /* client.h */,
+				975981F223FC78B70088FC7B /* magic.h */,
+				975981F323FC78B70088FC7B /* version.h */,
+				975981F423FC78B70088FC7B /* profile.h */,
+				975981F523FC78B70088FC7B /* locale_.h */,
+				975981F623FC78B70088FC7B /* policy.h */,
+				975981F723FC78B70088FC7B /* distort.h */,
+				975981F823FC78B70088FC7B /* segment.h */,
+				975981F923FC78B70088FC7B /* PreRvIcccm.h */,
+				975981FA23FC78B70088FC7B /* fx.h */,
+				975981FB23FC78B70088FC7B /* widget.h */,
+				975981FC23FC78B70088FC7B /* opencl.h */,
+				975981FD23FC78B70088FC7B /* splay-tree.h */,
+				975981FE23FC78B70088FC7B /* feature.h */,
+				975981FF23FC78B70088FC7B /* blob.h */,
+				9759820023FC78B70088FC7B /* layer.h */,
+				9759820123FC78B70088FC7B /* magick-config.h */,
+				9759820223FC78B70088FC7B /* string_.h */,
+				9759820323FC78B70088FC7B /* cache.h */,
+				9759820423FC78B70088FC7B /* matrix.h */,
+				9759820523FC78B70088FC7B /* color.h */,
+				9759820623FC78B70088FC7B /* magick.h */,
+				9759820723FC78B70088FC7B /* configure.h */,
+				9759820823FC78B70088FC7B /* hashmap.h */,
+				9759820923FC78B70088FC7B /* xwindow.h */,
+				9759820A23FC78B70088FC7B /* stream.h */,
+				9759820B23FC78B70088FC7B /* ImageMagick.h */,
+				9759820C23FC78B70088FC7B /* decorate.h */,
+				9759820D23FC78B70088FC7B /* registry.h */,
+				9759820E23FC78B70088FC7B /* montage.h */,
+				9759820F23FC78B70088FC7B /* threshold.h */,
+				9759821023FC78B70088FC7B /* cipher.h */,
+				9759821123FC78B70088FC7B /* artifact.h */,
+				9759821223FC78B70088FC7B /* method-attribute.h */,
+				9759821323FC78B70088FC7B /* accelerate.h */,
+				9759821423FC78B70088FC7B /* resize.h */,
+				9759821523FC78B70088FC7B /* api.h */,
+				9759821623FC78B70088FC7B /* timer.h */,
+				9759821723FC78B70088FC7B /* option.h */,
+				9759821823FC78B70088FC7B /* list.h */,
+				9759821923FC78B70088FC7B /* image-view.h */,
+				9759821A23FC78B70088FC7B /* display.h */,
+				9759821B23FC78B70088FC7B /* MagickCore.h */,
+				9759821C23FC78B70088FC7B /* monitor.h */,
+				9759821D23FC78B70088FC7B /* magick-baseconfig.h */,
+				9759821E23FC78B70088FC7B /* xml-tree.h */,
+				9759821F23FC78B70088FC7B /* compare.h */,
+				9759822023FC78B70088FC7B /* magick-type.h */,
+				9759822123FC78B70088FC7B /* pixel-accessor.h */,
+				9759822223FC78B70088FC7B /* log.h */,
+				9759822323FC78B70088FC7B /* compress.h */,
+				9759822423FC78B70088FC7B /* prepress.h */,
+				9759822523FC78B70088FC7B /* transform.h */,
+				9759822623FC78B70088FC7B /* memory_.h */,
+				9759822723FC78B70088FC7B /* cache-view.h */,
+				9759822823FC78B70088FC7B /* histogram.h */,
+				9759822923FC78B70088FC7B /* fourier.h */,
+				9759822A23FC78B70088FC7B /* colorspace.h */,
+				9759822B23FC78B70088FC7B /* token.h */,
+				9759822C23FC78B70088FC7B /* statistic.h */,
+				9759822D23FC78B70088FC7B /* effect.h */,
+				9759822E23FC78B70088FC7B /* property.h */,
+				9759822F23FC78B70088FC7B /* colormap.h */,
+				9759823023FC78B70088FC7B /* module.h */,
+				9759823123FC78B70088FC7B /* quantum.h */,
+				9759823223FC78B70088FC7B /* utility.h */,
+				9759823323FC78B70088FC7B /* attribute.h */,
+				9759823423FC78B70088FC7B /* deprecate.h */,
+				9759823523FC78B70088FC7B /* exception.h */,
+				9759823623FC78B70088FC7B /* identify.h */,
+				9759823723FC78B70088FC7B /* coder.h */,
+				9759823823FC78B70088FC7B /* random_.h */,
+				9759823923FC78B70088FC7B /* paint.h */,
+				9759823A23FC78B70088FC7B /* image.h */,
+				9759823B23FC78B70088FC7B /* resource_.h */,
+				9759823C23FC78B70088FC7B /* draw.h */,
+				9759823D23FC78B70088FC7B /* constitute.h */,
+				9759823E23FC78B70088FC7B /* geometry.h */,
+				9759823F23FC78B70088FC7B /* methods.h */,
+			);
+			path = magick;
+			sourceTree = "<group>";
+		};
+		9759824023FC78B70088FC7B /* wand */ = {
+			isa = PBXGroup;
+			children = (
+				9759824123FC78B70088FC7B /* composite.h */,
+				9759824223FC78B70088FC7B /* animate.h */,
+				9759824323FC78B70088FC7B /* conjure.h */,
+				9759824423FC78B70088FC7B /* magick_wand.h */,
+				9759824523FC78B70088FC7B /* magick-property.h */,
+				9759824623FC78B70088FC7B /* stream.h */,
+				9759824723FC78B70088FC7B /* montage.h */,
+				9759824823FC78B70088FC7B /* mogrify.h */,
+				9759824923FC78B70088FC7B /* method-attribute.h */,
+				9759824A23FC78B70088FC7B /* magick-wand.h */,
+				9759824B23FC78B70088FC7B /* MagickWand.h */,
+				9759824C23FC78B70088FC7B /* display.h */,
+				9759824D23FC78B70088FC7B /* compare.h */,
+				9759824E23FC78B70088FC7B /* drawing-wand.h */,
+				9759824F23FC78B70088FC7B /* magick-image.h */,
+				9759825023FC78B70088FC7B /* pixel-iterator.h */,
+				9759825123FC78B70088FC7B /* import.h */,
+				9759825223FC78B70088FC7B /* convert.h */,
+				9759825323FC78B70088FC7B /* deprecate.h */,
+				9759825423FC78B70088FC7B /* wand-view.h */,
+				9759825523FC78B70088FC7B /* identify.h */,
+				9759825623FC78B70088FC7B /* pixel-wand.h */,
+			);
+			path = wand;
+			sourceTree = "<group>";
+		};
+		9759825723FC78B70088FC7B /* tiff */ = {
+			isa = PBXGroup;
+			children = (
+				9759825823FC78B70088FC7B /* tiff.h */,
+				9759825923FC78B70088FC7B /* tiffvers.h */,
+				9759825A23FC78B70088FC7B /* tiffio.h */,
+				9759825B23FC78B70088FC7B /* tiffconf.h */,
+			);
+			path = tiff;
+			sourceTree = "<group>";
+		};
+		9759825C23FC78B70088FC7B /* im_config */ = {
+			isa = PBXGroup;
+			children = (
+				9759825D23FC78B70088FC7B /* quantization-table.xml */,
+				9759825E23FC78B70088FC7B /* colors.xml */,
+				9759825F23FC78B70088FC7B /* type-windows.xml */,
+				9759826023FC78B70088FC7B /* coder.xml */,
+				9759826123FC78B70088FC7B /* type.xml */,
+				9759826223FC78B70088FC7B /* policy.xml */,
+				9759826323FC78B70088FC7B /* delegates.xml */,
+				9759826423FC78B70088FC7B /* thresholds.xml */,
+				9759826523FC78B70088FC7B /* mime.xml */,
+				9759826623FC78B70088FC7B /* type-ghostscript.xml */,
+				9759826723FC78B70088FC7B /* log.xml */,
+				9759826823FC78B70088FC7B /* francais.xml */,
+				9759826923FC78B70088FC7B /* magic.xml */,
+				9759826A23FC78B70088FC7B /* type-dejavu.xml */,
+				9759826B23FC78B70088FC7B /* locale.xml */,
+				9759826C23FC78B70088FC7B /* english.xml */,
+			);
+			path = im_config;
+			sourceTree = "<group>";
+		};
+		97598CC923FCD5F50088FC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97598CCB23FCD60D0088FC7B /* Pods-Bluefruit.debug.xcconfig */,
+				97598CCF23FCD60D0088FC7B /* Pods-Bluefruit.release.xcconfig */,
+				97598CCD23FCD60D0088FC7B /* Pods-iOS.debug.xcconfig */,
+				97598CCE23FCD60D0088FC7B /* Pods-iOS.release.xcconfig */,
+				97598CCA23FCD60C0088FC7B /* Pods-macOS.debug.xcconfig */,
+				97598CCC23FCD60D0088FC7B /* Pods-macOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = seizureDetection/Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +711,8 @@
 				97279F6B23F114B200B2BAFB /* Sources */,
 				97279F6C23F114B200B2BAFB /* Frameworks */,
 				97279F6D23F114B200B2BAFB /* Resources */,
+				97598CDC23FCF0C70088FC7B /* [CP] Check Pods Manifest.lock */,
+				97598CE023FCF2CC0088FC7B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,9 +807,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9759828123FC78B70088FC7B /* english.xml in Resources */,
+				9759827B23FC78B70088FC7B /* type-ghostscript.xml in Resources */,
+				9759827D23FC78B70088FC7B /* francais.xml in Resources */,
+				9759827723FC78B70088FC7B /* policy.xml in Resources */,
+				9759827323FC78B70088FC7B /* colors.xml in Resources */,
+				9759827423FC78B70088FC7B /* type-windows.xml in Resources */,
+				9759827F23FC78B70088FC7B /* type-dejavu.xml in Resources */,
+				9759827623FC78B70088FC7B /* type.xml in Resources */,
+				9759827923FC78B70088FC7B /* thresholds.xml in Resources */,
 				97279F7F23F114B500B2BAFB /* LaunchScreen.storyboard in Resources */,
 				97279F7C23F114B500B2BAFB /* Assets.xcassets in Resources */,
+				9759827E23FC78B70088FC7B /* magic.xml in Resources */,
+				9759827C23FC78B70088FC7B /* log.xml in Resources */,
+				9759828023FC78B70088FC7B /* locale.xml in Resources */,
+				9759827A23FC78B70088FC7B /* mime.xml in Resources */,
+				9759827523FC78B70088FC7B /* coder.xml in Resources */,
+				9759827223FC78B70088FC7B /* quantization-table.xml in Resources */,
 				97279F7A23F114B200B2BAFB /* Main.storyboard in Resources */,
+				97598CDB23FCE4CE0088FC7B /* Settings.bundle in Resources */,
+				9759827823FC78B70088FC7B /* delegates.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,16 +846,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97598CDC23FCF0C70088FC7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97598CE023FCF2CC0088FC7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bluefruit/Pods-Bluefruit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97279F6B23F114B200B2BAFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9759681223FC70840088FC7B /* BleManager.swift in Sources */,
+				9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */,
+				975967EE23FC70740088FC7B /* FilterTextSettingsViewController.swift in Sources */,
+				9759681923FC70840088FC7B /* Int+Bytes.swift in Sources */,
+				975967DB23FC70550088FC7B /* PeripheralModulesViewController.swift in Sources */,
+				9759680F23FC70840088FC7B /* UartPeripheralService.swift in Sources */,
 				975D3D8023F2173A0054944F /* Checkbox.swift in Sources */,
+				9759681623FC70840088FC7B /* BlePeripheral+Uart.swift in Sources */,
+				9759681C23FC70840088FC7B /* Data+ScanValue.swift in Sources */,
+				9759681023FC70840088FC7B /* BleUUIDNames.swift in Sources */,
+				975967F023FC70740088FC7B /* PeripheralTableViewCell.swift in Sources */,
+				975967DA23FC70550088FC7B /* PeripheralModeViewController.swift in Sources */,
 				97279F7723F114B200B2BAFB /* ViewController.swift in Sources */,
+				9759681B23FC70840088FC7B /* LogHelper.swift in Sources */,
+				9759681723FC70840088FC7B /* BlePeripheral+Battery.swift in Sources */,
 				97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */,
+				975967F123FC70740088FC7B /* ScannerViewController.swift in Sources */,
+				975967EF23FC70740088FC7B /* AboutViewController.swift in Sources */,
+				9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */,
+				9759680C23FC70840088FC7B /* DeviceInformationPeripheralService.swift in Sources */,
+				975967D823FC70550088FC7B /* PeripheralModulesDeviceTableViewCell.swift in Sources */,
+				97598CD823FCDCBA0088FC7B /* Config.swift in Sources */,
+				9759681823FC70840088FC7B /* HexUtils.swift in Sources */,
+				9759681323FC70840088FC7B /* UartLogManager.swift in Sources */,
+				9759681123FC70840088FC7B /* BlePeripheral.swift in Sources */,
+				9759681A23FC70840088FC7B /* CommandQueue.swift in Sources */,
 				97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */,
+				9759681523FC70840088FC7B /* UartPacketManager.swift in Sources */,
+				9759680E23FC70840088FC7B /* PeripheralService.swift in Sources */,
+				9759680D23FC70840088FC7B /* GattServer.swift in Sources */,
+				975967D923FC70550088FC7B /* PeripheralModulesTableViewCell.swift in Sources */,
+				975967ED23FC70740088FC7B /* ScanningAnimationViewController.swift in Sources */,
 				97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */,
+				9759681423FC70840088FC7B /* UartDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +935,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97279F8A23F114B500B2BAFB /* seizureDetectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +942,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97279F9523F114B500B2BAFB /* seizureDetectionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,13 +1099,71 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MSWeakTimer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXML\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIColor+Hex\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VectorMath\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation\"",
+					"\"$(SRCROOT)/seizureDetection/External Tools/iOSMagick-6.8.8-9-libs/include\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT/CocoaMQTT.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MSWeakTimer/MSWeakTimer.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXML/SwiftyXML.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIColor+Hex/UIColor_Hex.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VectorMath/VectorMath.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation/ZIPFoundation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary/iOSDFULibrary.framework/Headers\"",
+					"\"$(SRCROOT)/seizureDetection/External Tools/iOSMagick-6.8.8-9-libs/include\"",
+					"\"${PODS_ROOT}/\"/**",
+				);
 				INFOPLIST_FILE = seizureDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/seizureDetection/External\\ Tools/iOSMagick-6.8.8-9-libs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MSWeakTimer\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Charts\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaMQTT\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyXML\"",
+					"-framework",
+					"\"UIColor_Hex\"",
+					"-framework",
+					"\"VectorMath\"",
+					"-framework",
+					"\"ZIPFoundation\"",
+					"-framework",
+					"\"iOSDFULibrary\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D MQTT_ENABLED";
 				PRODUCT_BUNDLE_IDENTIFIER = eegiic.seizureDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "seizureDetection/Bluefruit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,13 +1174,71 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MSWeakTimer\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXML\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIColor+Hex\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VectorMath\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary\"",
+					"\"$(SRCROOT)/seizureDetection/External Tools/iOSMagick-6.8.8-9-libs/include\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaMQTT/CocoaMQTT.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MSWeakTimer/MSWeakTimer.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXML/SwiftyXML.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/UIColor+Hex/UIColor_Hex.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VectorMath/VectorMath.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation/ZIPFoundation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSDFULibrary/iOSDFULibrary.framework/Headers\"",
+					"\"$(SRCROOT)/seizureDetection/External Tools/iOSMagick-6.8.8-9-libs/include\"",
+					"\"${PODS_ROOT}/\"/**",
+				);
 				INFOPLIST_FILE = seizureDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/seizureDetection/External\\ Tools/iOSMagick-6.8.8-9-libs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"MSWeakTimer\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Charts\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaMQTT\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SwiftyXML\"",
+					"-framework",
+					"\"UIColor_Hex\"",
+					"-framework",
+					"\"VectorMath\"",
+					"-framework",
+					"\"ZIPFoundation\"",
+					"-framework",
+					"\"iOSDFULibrary\"",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D MQTT_ENABLED";
 				PRODUCT_BUNDLE_IDENTIFIER = eegiic.seizureDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "seizureDetection/Bluefruit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

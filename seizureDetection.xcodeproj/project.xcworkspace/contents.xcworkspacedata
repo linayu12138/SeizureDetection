@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:seizureDetection.xcodeproj">
+      location = "group:../seizureDetection/AdafruitKit">
+   </FileRef>
+   <FileRef
+      location = "group:../seizureDetection/Scanner">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
