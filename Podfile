@@ -1,9 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'Bluefruit' do
+target 'seizureDetection' do
   platform :ios, '11.3'
-  
+
   pod 'CocoaMQTT', '~> 1.2.5'
   pod 'MSWeakTimer', '~> 1.1.0'
   pod 'SwiftyXML', '~> 2.0.0'
