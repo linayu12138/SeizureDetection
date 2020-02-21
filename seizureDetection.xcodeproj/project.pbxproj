@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -34,7 +34,6 @@
 		9759681C23FC70840088FC7B /* Data+ScanValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759680923FC70840088FC7B /* Data+ScanValue.swift */; };
 		97597CA623FC73890088FC7B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CA523FC73890088FC7B /* libxml2.tbd */; };
 		97597CA823FC73AE0088FC7B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CA723FC73AE0088FC7B /* libz.tbd */; };
-		97597CAC23FC75C50088FC7B /* Pods_Bluefruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; };
 		97598CD823FCDCBA0088FC7B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598CD723FCDCBA0088FC7B /* Config.swift */; };
 		97598CDB23FCE4CE0088FC7B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97598CDA23FCE4CE0088FC7B /* Settings.bundle */; };
 		97598CEB23FD2F5B0088FC7B /* NSObject+ENHThrottledReloading.m in Sources */ = {isa = PBXBuildFile; fileRef = 97598CE723FD2F5A0088FC7B /* NSObject+ENHThrottledReloading.m */; };
@@ -146,6 +145,26 @@
 		97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */; };
 		97598EE123FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
+		97918D6723FF63B0006B6AD6 /* Pods_Bluefruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; };
+		97918D6823FF63B0006B6AD6 /* Pods_Bluefruit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DB623FF961D006B6AD6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB523FF961D006B6AD6 /* Charts.framework */; };
+		97918DB723FF961D006B6AD6 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB523FF961D006B6AD6 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DB923FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */; };
+		97918DBA23FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DBC23FFA655006B6AD6 /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */; };
+		97918DBD23FFA655006B6AD6 /* CocoaMQTT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DBF23FFA65A006B6AD6 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */; };
+		97918DC023FFA65A006B6AD6 /* iOSDFULibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DC223FFA65F006B6AD6 /* MSWeakTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */; };
+		97918DC323FFA65F006B6AD6 /* MSWeakTimer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DC523FFA664006B6AD6 /* SwiftyXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC423FFA664006B6AD6 /* SwiftyXML.framework */; };
+		97918DC623FFA665006B6AD6 /* SwiftyXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC423FFA664006B6AD6 /* SwiftyXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DC823FFA66A006B6AD6 /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */; };
+		97918DC923FFA66A006B6AD6 /* UIColor_Hex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DCB23FFA66F006B6AD6 /* VectorMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCA23FFA66F006B6AD6 /* VectorMath.framework */; };
+		97918DCC23FFA66F006B6AD6 /* VectorMath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCA23FFA66F006B6AD6 /* VectorMath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97918DCE23FFA674006B6AD6 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; };
+		97918DCF23FFA674006B6AD6 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -165,6 +184,29 @@
 			remoteInfo = seizureDetection;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97918D6923FF63B0006B6AD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97918DCC23FFA66F006B6AD6 /* VectorMath.framework in Embed Frameworks */,
+				97918DBA23FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				97918D6823FF63B0006B6AD6 /* Pods_Bluefruit.framework in Embed Frameworks */,
+				97918DC923FFA66A006B6AD6 /* UIColor_Hex.framework in Embed Frameworks */,
+				97918DC623FFA665006B6AD6 /* SwiftyXML.framework in Embed Frameworks */,
+				97918DBD23FFA655006B6AD6 /* CocoaMQTT.framework in Embed Frameworks */,
+				97918DC023FFA65A006B6AD6 /* iOSDFULibrary.framework in Embed Frameworks */,
+				97918DC323FFA65F006B6AD6 /* MSWeakTimer.framework in Embed Frameworks */,
+				97918DB723FF961D006B6AD6 /* Charts.framework in Embed Frameworks */,
+				97918DCF23FFA674006B6AD6 /* ZIPFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		97279F6F23F114B200B2BAFB /* seizureDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seizureDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -444,6 +486,15 @@
 		97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDetailsViewController.swift; sourceTree = "<group>"; };
 		97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationUartSamplerViewController.swift; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		97918DB523FF961D006B6AD6 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Charts.framework; path = Charts/Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket/CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CocoaMQTT.framework; path = CocoaMQTT/CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = iOSDFULibrary.framework; path = iOSDFULibrary/iOSDFULibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = MSWeakTimer.framework; path = MSWeakTimer/MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DC423FFA664006B6AD6 /* SwiftyXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SwiftyXML.framework; path = SwiftyXML/SwiftyXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = UIColor_Hex.framework; path = "UIColor+Hex/UIColor_Hex.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DCA23FFA66F006B6AD6 /* VectorMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = VectorMath.framework; path = VectorMath/VectorMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ZIPFoundation.framework; path = ZIPFoundation/ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -452,13 +503,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97597CAC23FC75C50088FC7B /* Pods_Bluefruit.framework in Frameworks */,
+				97918DCE23FFA674006B6AD6 /* ZIPFoundation.framework in Frameworks */,
 				97597CA823FC73AE0088FC7B /* libz.tbd in Frameworks */,
 				97597CA623FC73890088FC7B /* libxml2.tbd in Frameworks */,
+				97918DC523FFA664006B6AD6 /* SwiftyXML.framework in Frameworks */,
+				97918DB923FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Frameworks */,
 				97598DA023FD380D0088FC7B /* libMagickWand.a in Frameworks */,
+				97918DB623FF961D006B6AD6 /* Charts.framework in Frameworks */,
+				97918DC223FFA65F006B6AD6 /* MSWeakTimer.framework in Frameworks */,
+				97918D6723FF63B0006B6AD6 /* Pods_Bluefruit.framework in Frameworks */,
+				97918DBF23FFA65A006B6AD6 /* iOSDFULibrary.framework in Frameworks */,
 				97598D9C23FD380D0088FC7B /* libpng.a in Frameworks */,
+				97918DBC23FFA655006B6AD6 /* CocoaMQTT.framework in Frameworks */,
 				97598D9D23FD380D0088FC7B /* libtiff.a in Frameworks */,
 				97598D9F23FD380D0088FC7B /* libMagickCore.a in Frameworks */,
+				97918DCB23FFA66F006B6AD6 /* VectorMath.framework in Frameworks */,
+				97918DC823FFA66A006B6AD6 /* UIColor_Hex.framework in Frameworks */,
 				97598D9E23FD380D0088FC7B /* libjpeg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +647,15 @@
 		97597CA423FC73880088FC7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */,
+				97918DCA23FFA66F006B6AD6 /* VectorMath.framework */,
+				97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */,
+				97918DC423FFA664006B6AD6 /* SwiftyXML.framework */,
+				97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */,
+				97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */,
+				97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */,
+				97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */,
+				97918DB523FF961D006B6AD6 /* Charts.framework */,
 				97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */,
 				97597CA723FC73AE0088FC7B /* libz.tbd */,
 				97597CA523FC73890088FC7B /* libxml2.tbd */,
@@ -1112,7 +1181,7 @@
 				97279F6C23F114B200B2BAFB /* Frameworks */,
 				97279F6D23F114B200B2BAFB /* Resources */,
 				97598CDC23FCF0C70088FC7B /* [CP] Check Pods Manifest.lock */,
-				97598CE023FCF2CC0088FC7B /* [CP] Embed Pods Frameworks */,
+				97918D6923FF63B0006B6AD6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1278,28 +1347,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"print start\"\necho \"${BUILD_DIR}\"\necho \"print end\"\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		97598CE023FCF2CC0088FC7B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bluefruit/Pods-Bluefruit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bluefruit/Pods-Bluefruit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bluefruit/Pods-Bluefruit-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1590,6 +1638,8 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QRCD27HAB7;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",
@@ -1682,6 +1732,8 @@
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QRCD27HAB7;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Charts\"",

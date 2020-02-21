@@ -15,12 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fCx-z6-Aky">
-                                <rect key="frame" x="87" y="332" width="240" height="233"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fCx-z6-Aky">
+                                <rect key="frame" x="87" y="336.5" width="240" height="233"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Eu7-hg-IZb"/>
+                                    <constraint firstAttribute="height" constant="233" id="ghO-wc-3cF"/>
+                                    <constraint firstAttribute="width" secondItem="fCx-z6-Aky" secondAttribute="height" multiplier="240:233" id="kXy-Rp-jCe"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.2831214964389801" green="0.49369347095489502" blue="0.73336189985275269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="fCx-z6-Aky" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4uo-ft-ugC"/>
+                            <constraint firstItem="fCx-z6-Aky" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="I7b-FE-txh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
