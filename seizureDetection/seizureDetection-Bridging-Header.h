@@ -9,7 +9,9 @@
 #ifndef seizureDetection_Bridging_Header_h
 #define seizureDetection_Bridging_Header_h
 
-#import "MSWeakTimer/MSWeakTimer.h"
+//#import "MSWeakTimer/MSWeakTimer.h"
+#import <MSWeakTimer/MSWeakTimer.h>
+//#import "NSObject+ENHThrottledReloading.h"
 #import "NSObject+ENHThrottledReloading.h"
 //#import "ISColorWheel.h"
 
