@@ -166,6 +166,15 @@
 		97918DCE23FFA674006B6AD6 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; };
 		97918DCF23FFA674006B6AD6 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
+		97FF4EBA23FFC476008C02EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EAF23FFC476008C02EE /* LICENSE */; };
+		97FF4EBB23FFC476008C02EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EB023FFC476008C02EE /* README.md */; };
+		97FF4EBC23FFC476008C02EE /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB323FFC476008C02EE /* Archive.swift */; };
+		97FF4EBD23FFC476008C02EE /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB423FFC476008C02EE /* Archive+Reading.swift */; };
+		97FF4EBE23FFC476008C02EE /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB523FFC476008C02EE /* Entry.swift */; };
+		97FF4EBF23FFC476008C02EE /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB623FFC476008C02EE /* Data+Compression.swift */; };
+		97FF4EC023FFC476008C02EE /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB723FFC476008C02EE /* Archive+Writing.swift */; };
+		97FF4EC123FFC476008C02EE /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB823FFC476008C02EE /* Data+Serialization.swift */; };
+		97FF4EC223FFC476008C02EE /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB923FFC476008C02EE /* FileManager+ZIP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,6 +227,7 @@
 		97279F7E23F114B500B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97279F8523F114B500B2BAFB /* seizureDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		972FAFAA23FFB57A00DB906C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Bluefruit_LE_Connect_v2/Bluefruit/Info.plist; sourceTree = "<group>"; };
 		975967F423FC70840088FC7B /* UartPacketManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManagerBase.swift; sourceTree = "<group>"; };
 		975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPeripheralModePacketManager.swift; sourceTree = "<group>"; };
 		975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationPeripheralService.swift; sourceTree = "<group>"; };
@@ -496,6 +506,15 @@
 		97918DCA23FFA66F006B6AD6 /* VectorMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = VectorMath.framework; path = VectorMath/VectorMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = ZIPFoundation.framework; path = ZIPFoundation/ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		97FF4EAF23FFC476008C02EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		97FF4EB023FFC476008C02EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97FF4EB323FFC476008C02EE /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
+		97FF4EB423FFC476008C02EE /* Archive+Reading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Reading.swift"; sourceTree = "<group>"; };
+		97FF4EB523FFC476008C02EE /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		97FF4EB623FFC476008C02EE /* Data+Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Compression.swift"; sourceTree = "<group>"; };
+		97FF4EB723FFC476008C02EE /* Archive+Writing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
+		97FF4EB823FFC476008C02EE /* Data+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
+		97FF4EB923FFC476008C02EE /* FileManager+ZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -563,6 +582,7 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
+				972FAFAA23FFB57A00DB906C /* Info.plist */,
 				97598CD723FCDCBA0088FC7B /* Config.swift */,
 				97598DA123FDBC2B0088FC7B /* seizureDetection-Bridging-Header.h */,
 				97598CD623FCDCAA0088FC7B /* Bluefruit.entitlements */,
@@ -647,6 +667,7 @@
 		97597CA423FC73880088FC7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97FF4EAE23FFC476008C02EE /* ZIPFoundation */,
 				97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */,
 				97918DCA23FFA66F006B6AD6 /* VectorMath.framework */,
 				97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */,
@@ -1170,6 +1191,39 @@
 			path = PeripheralModules;
 			sourceTree = "<group>";
 		};
+		97FF4EAE23FFC476008C02EE /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4EAF23FFC476008C02EE /* LICENSE */,
+				97FF4EB023FFC476008C02EE /* README.md */,
+				97FF4EB123FFC476008C02EE /* Sources */,
+			);
+			name = ZIPFoundation;
+			path = Pods/ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		97FF4EB123FFC476008C02EE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4EB223FFC476008C02EE /* ZIPFoundation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		97FF4EB223FFC476008C02EE /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4EB323FFC476008C02EE /* Archive.swift */,
+				97FF4EB423FFC476008C02EE /* Archive+Reading.swift */,
+				97FF4EB523FFC476008C02EE /* Entry.swift */,
+				97FF4EB623FFC476008C02EE /* Data+Compression.swift */,
+				97FF4EB723FFC476008C02EE /* Archive+Writing.swift */,
+				97FF4EB823FFC476008C02EE /* Data+Serialization.swift */,
+				97FF4EB923FFC476008C02EE /* FileManager+ZIP.swift */,
+			);
+			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1284,6 +1338,7 @@
 				97598DB623FDC1C30088FC7B /* gyroscope.scn in Resources */,
 				97598DBF23FDC1C30088FC7B /* Credits.rtf in Resources */,
 				97598D9723FD380D0088FC7B /* francais.xml in Resources */,
+				97FF4EBA23FFC476008C02EE /* LICENSE in Resources */,
 				97598DBE23FDC1C30088FC7B /* eink3color.png in Resources */,
 				97598D9123FD380D0088FC7B /* policy.xml in Resources */,
 				97598D8D23FD380D0088FC7B /* colors.xml in Resources */,
@@ -1292,6 +1347,7 @@
 				97598DC123FDC1C30088FC7B /* Localizable.strings in Resources */,
 				97598D9923FD380D0088FC7B /* type-dejavu.xml in Resources */,
 				97598D9023FD380D0088FC7B /* type.xml in Resources */,
+				97FF4EBB23FFC476008C02EE /* README.md in Resources */,
 				97598D9323FD380D0088FC7B /* thresholds.xml in Resources */,
 				97279F7C23F114B500B2BAFB /* Assets.xcassets in Resources */,
 				97598DB823FDC1C30088FC7B /* AccelerometerParameters.plist in Resources */,
@@ -1367,12 +1423,16 @@
 				97598DDC23FDC1EB0088FC7B /* Color+DarkerLighter.swift in Sources */,
 				97598DD323FDC1EB0088FC7B /* CocoaCompatibility.swift in Sources */,
 				97598EB523FDC36C0088FC7B /* ControllerComponentsTableViewCell.swift in Sources */,
+				97FF4EBC23FFC476008C02EE /* Archive.swift in Sources */,
 				97598EAE23FDC36C0088FC7B /* ModeTabsViewController.swift in Sources */,
 				9759681923FC70840088FC7B /* Int+Bytes.swift in Sources */,
 				97598EB023FDC36C0088FC7B /* ScrollingTabBarCollectionViewCell.swift in Sources */,
+				97FF4EBD23FFC476008C02EE /* Archive+Reading.swift in Sources */,
 				97598E1823FDC2A90088FC7B /* ThermalCameraModuleManager.swift in Sources */,
 				9759680F23FC70840088FC7B /* UartPeripheralService.swift in Sources */,
 				975D3D8023F2173A0054944F /* Checkbox.swift in Sources */,
+				97FF4EBF23FFC476008C02EE /* Data+Compression.swift in Sources */,
+				97FF4EBE23FFC476008C02EE /* Entry.swift in Sources */,
 				9759681623FC70840088FC7B /* BlePeripheral+Uart.swift in Sources */,
 				97598E9623FDC36C0088FC7B /* GyroscopePageDataViewController.swift in Sources */,
 				97598E1923FDC2A90088FC7B /* ControllerModuleManager.swift in Sources */,
@@ -1398,7 +1458,9 @@
 				97598E1423FDC2A90088FC7B /* NeopixelModuleManager.swift in Sources */,
 				97598DD423FDC1EB0088FC7B /* MathUtils.swift in Sources */,
 				97598DEC23FDC1F20088FC7B /* StyleConfig.swift in Sources */,
+				97FF4EC223FFC476008C02EE /* FileManager+ZIP.swift in Sources */,
 				97598E9723FDC36C0088FC7B /* GyroscopeViewController.swift in Sources */,
+				97FF4EC123FFC476008C02EE /* Data+Serialization.swift in Sources */,
 				97598DF223FDC1F20088FC7B /* GradientView.swift in Sources */,
 				97598E1E23FDC2A90088FC7B /* RssiUI.swift in Sources */,
 				97598DD523FDC1EB0088FC7B /* Preferences.swift in Sources */,
@@ -1426,6 +1488,7 @@
 				97598DEE23FDC1F20088FC7B /* StyledAnimations.swift in Sources */,
 				97598E2123FDC2AA0088FC7B /* UartSettings.swift in Sources */,
 				97598E9B23FDC36C0088FC7B /* PageContentViewController.swift in Sources */,
+				97FF4EC023FFC476008C02EE /* Archive+Writing.swift in Sources */,
 				97598DDD23FDC1EB0088FC7B /* KeyboardPositionNotifier.swift in Sources */,
 				9759681A23FC70840088FC7B /* CommandQueue.swift in Sources */,
 				97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */,

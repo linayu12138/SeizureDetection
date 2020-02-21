@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
 target 'seizureDetection' do
   platform :ios, '11.3'
@@ -11,7 +11,7 @@ target 'seizureDetection' do
   pod 'Charts', '~> 3.4.0'
   pod 'VectorMath', '~> 0.4.1'
   pod 'UIColor+Hex', '~> 1.0.1'
-  #  pod 'iOS-color-wheel', :inhibit_warnings => true
+#  pod 'iOS-color-wheel', :inhibit_warnings => true
 end
 
 # Remove "Too many symbols" warning when submitting app
