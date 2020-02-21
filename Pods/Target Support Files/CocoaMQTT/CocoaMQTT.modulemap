@@ -1,4 +1,4 @@
-framework module CocoaMQTT {
+module CocoaMQTT {
   umbrella header "CocoaMQTT-umbrella.h"
 
   export *

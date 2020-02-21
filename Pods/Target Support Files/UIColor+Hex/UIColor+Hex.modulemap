@@ -1,4 +1,4 @@
-framework module UIColor_Hex {
+module UIColor_Hex {
   umbrella header "UIColor+Hex-umbrella.h"
 
   export *

@@ -1,5 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 #use_frameworks!
+use_modular_headers!
 
 target 'seizureDetection' do
   platform :ios, '11.3'

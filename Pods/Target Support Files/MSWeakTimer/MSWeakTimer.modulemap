@@ -1,4 +1,4 @@
-framework module MSWeakTimer {
+module MSWeakTimer {
   umbrella header "MSWeakTimer-umbrella.h"
 
   export *

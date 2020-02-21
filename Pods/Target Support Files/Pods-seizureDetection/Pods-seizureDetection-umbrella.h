@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_BluefruitVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_BluefruitVersionString[];
+FOUNDATION_EXPORT double Pods_seizureDetectionVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_seizureDetectionVersionString[];
 

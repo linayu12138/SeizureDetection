@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76350B28F52044F6C05D9B14 /* libPods-seizureDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D2AF9D6730C2C16D5F5F84 /* libPods-seizureDetection.a */; };
 		97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7223F114B200B2BAFB /* AppDelegate.swift */; };
 		97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7423F114B200B2BAFB /* SceneDelegate.swift */; };
 		97279F7723F114B200B2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7623F114B200B2BAFB /* ViewController.swift */; };
@@ -145,26 +146,7 @@
 		97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */; };
 		97598EE123FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
-		97918D6723FF63B0006B6AD6 /* Pods_Bluefruit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; };
 		97918D6823FF63B0006B6AD6 /* Pods_Bluefruit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DB623FF961D006B6AD6 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB523FF961D006B6AD6 /* Charts.framework */; };
-		97918DB723FF961D006B6AD6 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB523FF961D006B6AD6 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DB923FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */; };
-		97918DBA23FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DBC23FFA655006B6AD6 /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */; };
-		97918DBD23FFA655006B6AD6 /* CocoaMQTT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DBF23FFA65A006B6AD6 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */; };
-		97918DC023FFA65A006B6AD6 /* iOSDFULibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DBE23FFA65A006B6AD6 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DC223FFA65F006B6AD6 /* MSWeakTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */; };
-		97918DC323FFA65F006B6AD6 /* MSWeakTimer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC123FFA65F006B6AD6 /* MSWeakTimer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DC523FFA664006B6AD6 /* SwiftyXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC423FFA664006B6AD6 /* SwiftyXML.framework */; };
-		97918DC623FFA665006B6AD6 /* SwiftyXML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC423FFA664006B6AD6 /* SwiftyXML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DC823FFA66A006B6AD6 /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */; };
-		97918DC923FFA66A006B6AD6 /* UIColor_Hex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DC723FFA66A006B6AD6 /* UIColor_Hex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DCB23FFA66F006B6AD6 /* VectorMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCA23FFA66F006B6AD6 /* VectorMath.framework */; };
-		97918DCC23FFA66F006B6AD6 /* VectorMath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCA23FFA66F006B6AD6 /* VectorMath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		97918DCE23FFA674006B6AD6 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; };
-		97918DCF23FFA674006B6AD6 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97918DCD23FFA674006B6AD6 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 		97FF4EBA23FFC476008C02EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EAF23FFC476008C02EE /* LICENSE */; };
 		97FF4EBB23FFC476008C02EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EB023FFC476008C02EE /* README.md */; };
@@ -175,6 +157,24 @@
 		97FF4EC023FFC476008C02EE /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB723FFC476008C02EE /* Archive+Writing.swift */; };
 		97FF4EC123FFC476008C02EE /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB823FFC476008C02EE /* Data+Serialization.swift */; };
 		97FF4EC223FFC476008C02EE /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FF4EB923FFC476008C02EE /* FileManager+ZIP.swift */; };
+		97FF4EE423FFD40C008C02EE /* libCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED123FFD367008C02EE /* libCharts.a */; };
+		97FF4EE523FFD40C008C02EE /* libCharts.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED123FFD367008C02EE /* libCharts.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EE623FFD414008C02EE /* libCocoaAsyncSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED323FFD367008C02EE /* libCocoaAsyncSocket.a */; };
+		97FF4EE723FFD414008C02EE /* libCocoaAsyncSocket.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED323FFD367008C02EE /* libCocoaAsyncSocket.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EE823FFD414008C02EE /* libCocoaMQTT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED523FFD367008C02EE /* libCocoaMQTT.a */; };
+		97FF4EE923FFD414008C02EE /* libCocoaMQTT.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED523FFD367008C02EE /* libCocoaMQTT.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EEA23FFD414008C02EE /* libiOSDFULibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED723FFD367008C02EE /* libiOSDFULibrary.a */; };
+		97FF4EEB23FFD414008C02EE /* libiOSDFULibrary.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED723FFD367008C02EE /* libiOSDFULibrary.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EEC23FFD414008C02EE /* libMSWeakTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED923FFD367008C02EE /* libMSWeakTimer.a */; };
+		97FF4EED23FFD414008C02EE /* libMSWeakTimer.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4ED923FFD367008C02EE /* libMSWeakTimer.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EF023FFD414008C02EE /* libSwiftyXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EDD23FFD367008C02EE /* libSwiftyXML.a */; };
+		97FF4EF123FFD414008C02EE /* libSwiftyXML.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EDD23FFD367008C02EE /* libSwiftyXML.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EF223FFD414008C02EE /* libUIColor+Hex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EDF23FFD367008C02EE /* libUIColor+Hex.a */; };
+		97FF4EF323FFD414008C02EE /* libUIColor+Hex.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EDF23FFD367008C02EE /* libUIColor+Hex.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EF423FFD414008C02EE /* libVectorMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EE123FFD367008C02EE /* libVectorMath.a */; };
+		97FF4EF523FFD414008C02EE /* libVectorMath.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EE123FFD367008C02EE /* libVectorMath.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97FF4EF623FFD414008C02EE /* libZIPFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EE323FFD367008C02EE /* libZIPFoundation.a */; };
+		97FF4EF723FFD414008C02EE /* libZIPFoundation.a in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97FF4EE323FFD367008C02EE /* libZIPFoundation.a */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +192,76 @@
 			remoteGlobalIDString = 97279F6E23F114B200B2BAFB;
 			remoteInfo = seizureDetection;
 		};
+		97FF4ED023FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1C1B977ED8804E8AEEC884E7359EE58;
+			remoteInfo = Charts;
+		};
+		97FF4ED223FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6CBEFE4F9E22AFDC6347A739BB35FF8C;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		97FF4ED423FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6A4E1627379D6540B81A470C575D716;
+			remoteInfo = CocoaMQTT;
+		};
+		97FF4ED623FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 21B1375088A0310C7AE2BE4C8188D12F;
+			remoteInfo = iOSDFULibrary;
+		};
+		97FF4ED823FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E950E681365A41B93C3626C212A2891;
+			remoteInfo = MSWeakTimer;
+		};
+		97FF4EDC23FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58C83156414DF7D35BC4D9C4298C3771;
+			remoteInfo = SwiftyXML;
+		};
+		97FF4EDE23FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0BF0863015FE8E7C894E9BDAE8995845;
+			remoteInfo = "UIColor+Hex";
+		};
+		97FF4EE023FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CFF942529400F4E5CF5CAA9F39B05B2E;
+			remoteInfo = VectorMath;
+		};
+		97FF4EE223FFD367008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 48A4A6EDC08C8AC933D0DCD507E9D173;
+			remoteInfo = ZIPFoundation;
+		};
+		97FF4F0423FFD697008C02EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0B2C078C87FC89C7F8CFD7727B2D9C82;
+			remoteInfo = "Pods-seizureDetection";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,16 +271,16 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				97918DCC23FFA66F006B6AD6 /* VectorMath.framework in Embed Frameworks */,
-				97918DBA23FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				97FF4EE723FFD414008C02EE /* libCocoaAsyncSocket.a in Embed Frameworks */,
+				97FF4EF523FFD414008C02EE /* libVectorMath.a in Embed Frameworks */,
 				97918D6823FF63B0006B6AD6 /* Pods_Bluefruit.framework in Embed Frameworks */,
-				97918DC923FFA66A006B6AD6 /* UIColor_Hex.framework in Embed Frameworks */,
-				97918DC623FFA665006B6AD6 /* SwiftyXML.framework in Embed Frameworks */,
-				97918DBD23FFA655006B6AD6 /* CocoaMQTT.framework in Embed Frameworks */,
-				97918DC023FFA65A006B6AD6 /* iOSDFULibrary.framework in Embed Frameworks */,
-				97918DC323FFA65F006B6AD6 /* MSWeakTimer.framework in Embed Frameworks */,
-				97918DB723FF961D006B6AD6 /* Charts.framework in Embed Frameworks */,
-				97918DCF23FFA674006B6AD6 /* ZIPFoundation.framework in Embed Frameworks */,
+				97FF4EE923FFD414008C02EE /* libCocoaMQTT.a in Embed Frameworks */,
+				97FF4EF323FFD414008C02EE /* libUIColor+Hex.a in Embed Frameworks */,
+				97FF4EEB23FFD414008C02EE /* libiOSDFULibrary.a in Embed Frameworks */,
+				97FF4EF723FFD414008C02EE /* libZIPFoundation.a in Embed Frameworks */,
+				97FF4EED23FFD414008C02EE /* libMSWeakTimer.a in Embed Frameworks */,
+				97FF4EF123FFD414008C02EE /* libSwiftyXML.a in Embed Frameworks */,
+				97FF4EE523FFD40C008C02EE /* libCharts.a in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +288,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14D2AF9D6730C2C16D5F5F84 /* libPods-seizureDetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seizureDetection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C5785B4C5D02EB4E41F84F /* Pods-seizureDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seizureDetection.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-seizureDetection/Pods-seizureDetection.release.xcconfig"; sourceTree = "<group>"; };
+		78212D24016E94E2D35E32DE /* Pods-seizureDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seizureDetection.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-seizureDetection/Pods-seizureDetection.debug.xcconfig"; sourceTree = "<group>"; };
 		97279F6F23F114B200B2BAFB /* seizureDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seizureDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F7223F114B200B2BAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97279F7423F114B200B2BAFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -515,6 +588,7 @@
 		97FF4EB723FFC476008C02EE /* Archive+Writing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Archive+Writing.swift"; sourceTree = "<group>"; };
 		97FF4EB823FFC476008C02EE /* Data+Serialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
 		97FF4EB923FFC476008C02EE /* FileManager+ZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		97FF4EC323FFD367008C02EE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -522,23 +596,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97918DCE23FFA674006B6AD6 /* ZIPFoundation.framework in Frameworks */,
 				97597CA823FC73AE0088FC7B /* libz.tbd in Frameworks */,
 				97597CA623FC73890088FC7B /* libxml2.tbd in Frameworks */,
-				97918DC523FFA664006B6AD6 /* SwiftyXML.framework in Frameworks */,
-				97918DB923FFA64F006B6AD6 /* CocoaAsyncSocket.framework in Frameworks */,
+				97FF4EF223FFD414008C02EE /* libUIColor+Hex.a in Frameworks */,
+				97FF4EE623FFD414008C02EE /* libCocoaAsyncSocket.a in Frameworks */,
 				97598DA023FD380D0088FC7B /* libMagickWand.a in Frameworks */,
-				97918DB623FF961D006B6AD6 /* Charts.framework in Frameworks */,
-				97918DC223FFA65F006B6AD6 /* MSWeakTimer.framework in Frameworks */,
-				97918D6723FF63B0006B6AD6 /* Pods_Bluefruit.framework in Frameworks */,
-				97918DBF23FFA65A006B6AD6 /* iOSDFULibrary.framework in Frameworks */,
+				97FF4EE423FFD40C008C02EE /* libCharts.a in Frameworks */,
+				97FF4EEC23FFD414008C02EE /* libMSWeakTimer.a in Frameworks */,
+				97FF4EEA23FFD414008C02EE /* libiOSDFULibrary.a in Frameworks */,
+				97FF4EF023FFD414008C02EE /* libSwiftyXML.a in Frameworks */,
 				97598D9C23FD380D0088FC7B /* libpng.a in Frameworks */,
-				97918DBC23FFA655006B6AD6 /* CocoaMQTT.framework in Frameworks */,
+				97FF4EF623FFD414008C02EE /* libZIPFoundation.a in Frameworks */,
+				97FF4EE823FFD414008C02EE /* libCocoaMQTT.a in Frameworks */,
 				97598D9D23FD380D0088FC7B /* libtiff.a in Frameworks */,
 				97598D9F23FD380D0088FC7B /* libMagickCore.a in Frameworks */,
-				97918DCB23FFA66F006B6AD6 /* VectorMath.framework in Frameworks */,
-				97918DC823FFA66A006B6AD6 /* UIColor_Hex.framework in Frameworks */,
 				97598D9E23FD380D0088FC7B /* libjpeg.a in Frameworks */,
+				97FF4EF423FFD414008C02EE /* libVectorMath.a in Frameworks */,
+				76350B28F52044F6C05D9B14 /* libPods-seizureDetection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,10 +636,12 @@
 		97279F6623F114B200B2BAFB = {
 			isa = PBXGroup;
 			children = (
+				97FF4EC323FFD367008C02EE /* Pods.xcodeproj */,
 				97279F7123F114B200B2BAFB /* seizureDetection */,
 				97279F7023F114B200B2BAFB /* Products */,
 				97598CC923FCD5F50088FC7B /* Pods */,
 				97597CA423FC73880088FC7B /* Frameworks */,
+				97FF4EF923FFD696008C02EE /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -677,9 +753,9 @@
 				97918DBB23FFA655006B6AD6 /* CocoaMQTT.framework */,
 				97918DB823FFA64F006B6AD6 /* CocoaAsyncSocket.framework */,
 				97918DB523FF961D006B6AD6 /* Charts.framework */,
-				97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */,
 				97597CA723FC73AE0088FC7B /* libz.tbd */,
 				97597CA523FC73890088FC7B /* libxml2.tbd */,
+				14D2AF9D6730C2C16D5F5F84 /* libPods-seizureDetection.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -698,6 +774,8 @@
 			children = (
 				97598CCB23FCD60D0088FC7B /* Pods-Bluefruit.debug.xcconfig */,
 				97598CCF23FCD60D0088FC7B /* Pods-Bluefruit.release.xcconfig */,
+				78212D24016E94E2D35E32DE /* Pods-seizureDetection.debug.xcconfig */,
+				36C5785B4C5D02EB4E41F84F /* Pods-seizureDetection.release.xcconfig */,
 			);
 			name = Pods;
 			path = seizureDetection/Pods;
@@ -1224,6 +1302,31 @@
 			path = ZIPFoundation;
 			sourceTree = "<group>";
 		};
+		97FF4EC423FFD367008C02EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97FF4ED123FFD367008C02EE /* libCharts.a */,
+				97FF4ED323FFD367008C02EE /* libCocoaAsyncSocket.a */,
+				97FF4ED523FFD367008C02EE /* libCocoaMQTT.a */,
+				97FF4ED723FFD367008C02EE /* libiOSDFULibrary.a */,
+				97FF4ED923FFD367008C02EE /* libMSWeakTimer.a */,
+				97FF4F0523FFD697008C02EE /* libPods-seizureDetection.a */,
+				97FF4EDD23FFD367008C02EE /* libSwiftyXML.a */,
+				97FF4EDF23FFD367008C02EE /* libUIColor+Hex.a */,
+				97FF4EE123FFD367008C02EE /* libVectorMath.a */,
+				97FF4EE323FFD367008C02EE /* libZIPFoundation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97FF4EF923FFD696008C02EE /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1231,10 +1334,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97279F9923F114B500B2BAFB /* Build configuration list for PBXNativeTarget "seizureDetection" */;
 			buildPhases = (
+				97598CDC23FCF0C70088FC7B /* [CP] Check Pods Manifest.lock */,
 				97279F6B23F114B200B2BAFB /* Sources */,
 				97279F6C23F114B200B2BAFB /* Frameworks */,
 				97279F6D23F114B200B2BAFB /* Resources */,
-				97598CDC23FCF0C70088FC7B /* [CP] Check Pods Manifest.lock */,
 				97918D6923FF63B0006B6AD6 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -1316,6 +1419,12 @@
 			mainGroup = 97279F6623F114B200B2BAFB;
 			productRefGroup = 97279F7023F114B200B2BAFB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 97FF4EC423FFD367008C02EE /* Products */;
+					ProjectRef = 97FF4EC323FFD367008C02EE /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				97279F6E23F114B200B2BAFB /* seizureDetection */,
@@ -1324,6 +1433,79 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		97FF4ED123FFD367008C02EE /* libCharts.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCharts.a;
+			remoteRef = 97FF4ED023FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4ED323FFD367008C02EE /* libCocoaAsyncSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaAsyncSocket.a;
+			remoteRef = 97FF4ED223FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4ED523FFD367008C02EE /* libCocoaMQTT.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaMQTT.a;
+			remoteRef = 97FF4ED423FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4ED723FFD367008C02EE /* libiOSDFULibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiOSDFULibrary.a;
+			remoteRef = 97FF4ED623FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4ED923FFD367008C02EE /* libMSWeakTimer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMSWeakTimer.a;
+			remoteRef = 97FF4ED823FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4EDD23FFD367008C02EE /* libSwiftyXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSwiftyXML.a;
+			remoteRef = 97FF4EDC23FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4EDF23FFD367008C02EE /* libUIColor+Hex.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libUIColor+Hex.a";
+			remoteRef = 97FF4EDE23FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4EE123FFD367008C02EE /* libVectorMath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVectorMath.a;
+			remoteRef = 97FF4EE023FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4EE323FFD367008C02EE /* libZIPFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZIPFoundation.a;
+			remoteRef = 97FF4EE223FFD367008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97FF4F0523FFD697008C02EE /* libPods-seizureDetection.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-seizureDetection.a";
+			remoteRef = 97FF4F0423FFD697008C02EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		97279F6D23F114B200B2BAFB /* Resources */ = {
@@ -1400,6 +1582,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-seizureDetection-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

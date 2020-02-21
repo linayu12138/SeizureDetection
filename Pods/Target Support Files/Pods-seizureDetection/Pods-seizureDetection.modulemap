@@ -1,0 +1,6 @@
+module Pods_seizureDetection {
+  umbrella header "Pods-seizureDetection-umbrella.h"
+
+  export *
+  module * { export * }
+}

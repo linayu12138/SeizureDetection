@@ -1,4 +1,4 @@
-framework module VectorMath {
+module VectorMath {
   umbrella header "VectorMath-umbrella.h"
 
   export *
