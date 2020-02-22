@@ -198,7 +198,6 @@
 		97279F7E23F114B500B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97279F8523F114B500B2BAFB /* seizureDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		972FAFAA23FFB57A00DB906C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Bluefruit_LE_Connect_v2/Bluefruit/Info.plist; sourceTree = "<group>"; };
 		975967F423FC70840088FC7B /* UartPacketManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManagerBase.swift; sourceTree = "<group>"; };
 		975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPeripheralModePacketManager.swift; sourceTree = "<group>"; };
 		975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationPeripheralService.swift; sourceTree = "<group>"; };
@@ -221,7 +220,6 @@
 		97597CA523FC73890088FC7B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		97597CA723FC73AE0088FC7B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		97597CAB23FC75C50088FC7B /* Pods_Bluefruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Bluefruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97598CD623FCDCAA0088FC7B /* seizureDetection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = seizureDetection.entitlements; sourceTree = "<group>"; };
 		97598CD723FCDCBA0088FC7B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		97598CDA23FCE4CE0088FC7B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		97598CE723FD2F5A0088FC7B /* NSObject+ENHThrottledReloading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ENHThrottledReloading.m"; sourceTree = "<group>"; };
@@ -466,6 +464,7 @@
 		97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationUartSamplerViewController.swift; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		97F83D432400A0CA005A0B89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FF4EAF23FFC476008C02EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		97FF4EB023FFC476008C02EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		97FF4EB323FFC476008C02EE /* Archive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Archive.swift; sourceTree = "<group>"; };
@@ -554,10 +553,9 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
-				972FAFAA23FFB57A00DB906C /* Info.plist */,
+				97F83D432400A0CA005A0B89 /* Info.plist */,
 				97598CD723FCDCBA0088FC7B /* Config.swift */,
 				97598DA123FDBC2B0088FC7B /* seizureDetection-Bridging-Header.h */,
-				97598CD623FCDCAA0088FC7B /* seizureDetection.entitlements */,
 				97598CDA23FCE4CE0088FC7B /* Settings.bundle */,
 				975981D223FC789A0088FC7B /* External Tools */,
 				975967F223FC70840088FC7B /* AdafruitKit */,
