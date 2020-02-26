@@ -12,7 +12,7 @@ class FilterTextSettingsViewController: UIViewController {
 
     // UI
     @IBOutlet weak var baseTableView: UITableView!
-
+    
     // Params
     weak var peripheralList: PeripheralList?
     var onSettingsChanged: (() -> Void)?
@@ -49,6 +49,7 @@ extension FilterTextSettingsViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let reuseIdentifier = "MatchCell"
+        
         var cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier)
         if cell == nil {
             cell = UITableViewCell(style: .default, reuseIdentifier: reuseIdentifier)
