@@ -246,7 +246,7 @@ class PeripheralModulesViewController: UIViewController {
             
             context.batteryLevel = batteryLevel
             
-            DispatchQueue.main.async { 
+            DispatchQueue.main.async {
                 // Update section
                 context.baseTableView.reloadSections([TableSection.device.rawValue], with: .none)
             }
@@ -260,18 +260,28 @@ class PeripheralModulesViewController: UIViewController {
     }
 
 
+//    fileprivate func showDfu() {
+//        if let dfuViewController = self.storyboard!.instantiateViewController(withIdentifier: "DfuModeViewController") as? DfuModeViewController {
+//            dfuViewController.blePeripheral = blePeripheral
+//
+//            show(dfuViewController, sender: self)
+//        }
+//    }
+
     private func menuItems() -> [Modules] {
-        if connectionMode == .multiplePeripherals {
-            return [.uart, .plotter]
-        } else if hasUart && hasDfu {
-            return [.info, .uart, .plotter, .pinIO, .controller, .neopixel, .calibration, .thermalcamera, .imagetransfer, .dfu]
-        } else if hasUart {
-            return [.info, .uart, .plotter, .pinIO, .controller, .calibration, .thermalcamera, .imagetransfer]
-        } else if hasDfu {
-            return [.info, .dfu]
-        } else {
-            return [.info]
-        }
+//        if connectionMode == .multiplePeripherals {
+//            return [.uart, .plotter]
+//        } else if hasUart && hasDfu {
+//            return [.info, .uart, .plotter, .pinIO, .controller, .neopixel, .calibration, .thermalcamera, .imagetransfer, .dfu]
+//        } else if hasUart {
+//            return [.info, .uart, .plotter, .pinIO, .controller, .calibration, .thermalcamera, .imagetransfer]
+//        } else if hasDfu {
+//            return [.info, .dfu]
+//        } else {
+//            return [.info]
+//        }
+        // modified dy258
+        return [.uart]
     }
     
 }
@@ -357,40 +367,45 @@ extension PeripheralModulesViewController: UITableViewDelegate {
             let items = menuItems()
             
             switch items[indexPath.row] {
-            case .info:
-                iconName = "tab_info_icon"
-                titleId = "info_tab_title"
+//            case .info:
+//                iconName = "tab_info_icon"
+//                titleId = "info_tab_title"
             case .uart:
                 iconName = "tab_uart_icon"
                 titleId = "uart_tab_title"
-            case .plotter:
-                iconName = "tab_plotter_icon"
-                titleId = "plotter_tab_title"
-            case .pinIO:
-                iconName = "tab_pinio_icon"
-                titleId = "pinio_tab_title"
-            case .controller:
-                iconName = "tab_controller_icon"
-                titleId = "controller_tab_title"
-            case .neopixel:
-                iconName = "tab_neopixel_icon"
-                titleId = "neopixels_tab_title"
-            case .calibration:
-                iconName = "tab_calibration_icon"
-                titleId = "calibration_tab_title"
-            case .thermalcamera:
-                iconName = "tab_thermalcamera_icon"
-                titleId = "thermalcamera_tab_title"
-            case .imagetransfer:
-                iconName = "tab_imagetransfer_icon"
-                titleId = "imagetransfer_tab_title"
-            case .dfu:
-                iconName = "tab_dfu_icon"
-                titleId = "dfu_tab_title"
+//            case .plotter:
+//                iconName = "tab_plotter_icon"
+//                titleId = "plotter_tab_title"
+//            case .pinIO:
+//                iconName = "tab_pinio_icon"
+//                titleId = "pinio_tab_title"
+//            case .controller:
+//                iconName = "tab_controller_icon"
+//                titleId = "controller_tab_title"
+//            case .neopixel:
+//                iconName = "tab_neopixel_icon"
+//                titleId = "neopixels_tab_title"
+//            case .calibration:
+//                iconName = "tab_calibration_icon"
+//                titleId = "calibration_tab_title"
+//            case .thermalcamera:
+//                iconName = "tab_thermalcamera_icon"
+//                titleId = "thermalcamera_tab_title"
+//            case .imagetransfer:
+//                iconName = "tab_imagetransfer_icon"
+//                titleId = "imagetransfer_tab_title"
+//            case .dfu:
+//                iconName = "tab_dfu_icon"
+//                titleId = "dfu_tab_title"
+            default:
+                iconName = "tab_uart_icon"
+                titleId = "uart_tab_title"
+                
             }
             
             moduleCell.iconImageView.tintColor = UIColor.darkGray
             moduleCell.iconImageView.image = iconName != nil ? UIImage(named: iconName!) : nil
+            moduleCell.titleLabel.textColor = UIColor.black
             moduleCell.titleLabel.text = titleId != nil ? localizationManager.localizedString(titleId!) : nil
         }
     }
@@ -415,16 +430,54 @@ extension PeripheralModulesViewController: UITableViewDelegate {
             let items = menuItems()
             
             switch items[indexPath.row] {
+//            case .info:
+//                if let infoViewController = self.storyboard?.instantiateViewController(withIdentifier: "InfoModeViewController") as? InfoModeViewController {
+//                    infoViewController.blePeripheral = blePeripheral
+//                    show(infoViewController, sender: self)
+//                }
+            case .uart:
+                if let uartViewController = self.storyboard?.instantiateViewController(withIdentifier: "UartModeViewController") as? UartModeViewController {
+                    uartViewController.blePeripheral = blePeripheral
+                    show(uartViewController, sender: self)
+                }
+//            case .plotter:
+//                if let plotterViewController = self.storyboard?.instantiateViewController(withIdentifier: "PlotterModeViewController") as? PlotterModeViewController {
+//                    plotterViewController.blePeripheral = blePeripheral
+//                    show(plotterViewController, sender: self)
+//                }
+//            case .pinIO:
+//                if let pinioViewController = self.storyboard?.instantiateViewController(withIdentifier: "PinIOModeViewController") as? PinIOModeViewController {
+//                    pinioViewController.blePeripheral = blePeripheral
+//                    show(pinioViewController, sender: self)
+//                }
             case .controller:
                 if let controllerViewController = self.storyboard?.instantiateViewController(withIdentifier: "ControllerModeViewController") as? ControllerModeViewController {
                     controllerViewController.blePeripheral = blePeripheral
                     show(controllerViewController, sender: self)
                 }
+//            case .neopixel:
+//                if let neopixelsViewController = self.storyboard?.instantiateViewController(withIdentifier: "NeopixelModeViewController") as? NeopixelModeViewController {
+//                    neopixelsViewController.blePeripheral = blePeripheral
+//                    show(neopixelsViewController, sender: self)
+//                }
             case .calibration:
                 if let calibrationViewController = self.storyboard?.instantiateViewController(withIdentifier: "CalibrationMenuViewController") as? CalibrationMenuViewController {
                     calibrationViewController.blePeripheral = blePeripheral
                     show(calibrationViewController, sender: self)
                 }
+//            case .thermalcamera:
+//                if let thermalCameraViewController = self.storyboard?.instantiateViewController(withIdentifier: "ThermalCameraModuleViewController") as? ThermalCameraModuleViewController {
+//                    thermalCameraViewController.blePeripheral = blePeripheral
+//                    show(thermalCameraViewController, sender: self)
+//                }
+//            case .imagetransfer:
+//                if let imageTransferViewController = self.storyboard?.instantiateViewController(withIdentifier: "ImageTransferModuleViewController") as? ImageTransferModuleViewController {
+//                    imageTransferViewController.blePeripheral = blePeripheral
+//                    show(imageTransferViewController, sender: self)
+//                }
+
+//            case .dfu:
+//                showDfu()
             default:
                 break
             }

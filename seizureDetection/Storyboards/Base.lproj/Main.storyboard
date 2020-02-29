@@ -400,11 +400,12 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Jp-LK-dvn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4817" y="246"/>
+            <point key="canvasLocation" x="4586" y="11"/>
         </scene>
         <!--Connect Device-->
         <scene sceneID="CRq-C1-6Yh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6H-LU-r4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ScannerViewController" automaticallyAdjustsScrollViewInsets="NO" id="mvj-Jr-OuD" userLabel="Connect Device" customClass="ScannerViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LW8-EU-hn3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
@@ -1084,7 +1085,6 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <outlet property="multiConnectTitleLabel" destination="X8p-7Q-0sQ" id="d5j-9l-oI0"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D6H-LU-r4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3937" y="11"/>
         </scene>
@@ -1098,9 +1098,10 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="55" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Pf7-P7-5Sj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="sectionIndexColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeviceCell" rowHeight="80" id="TGx-7O-YSf" customClass="PeripheralModulesDeviceTableViewCell" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeviceCell" rowHeight="80" id="TGx-7O-YSf" customClass="PeripheralModulesDeviceTableViewCell" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="TGx-7O-YSf" id="GY5-Lp-aEG">
@@ -1113,7 +1114,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGu-Do-L8q">
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="sks-tz-yAE">
@@ -1146,10 +1147,10 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                                     <rect key="frame" x="85" y="0.0" width="73" height="22"/>
                                                                     <subviews>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batterylevel" translatesAutoresizingMaskIntoConstraints="NO" id="b67-IH-yNa">
-                                                                            <rect key="frame" x="0.0" y="-5" width="32" height="32"/>
+                                                                            <rect key="frame" x="0.0" y="-1" width="16" height="24"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVR-uA-LTu">
-                                                                            <rect key="frame" x="40" y="3" width="33" height="16"/>
+                                                                            <rect key="frame" x="24" y="3" width="49" height="16"/>
                                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1174,14 +1175,14 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="si7-C9-RXJ" firstAttribute="centerY" secondItem="GY5-Lp-aEG" secondAttribute="centerY" id="ACL-Wr-X1i"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="si7-C9-RXJ" secondAttribute="trailing" id="kE3-JQ-U3r"/>
                                                 <constraint firstItem="si7-C9-RXJ" firstAttribute="leading" secondItem="GY5-Lp-aEG" secondAttribute="leadingMargin" id="u2D-g2-rwN"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="batteryImageView" destination="b67-IH-yNa" id="Qi2-Lc-tyw"/>
                                             <outlet property="batteryLabel" destination="FVR-uA-LTu" id="khJ-aZ-hdO"/>
@@ -1191,7 +1192,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                             <outlet property="titleLabel" destination="fGu-Do-L8q" id="Gkh-8R-H3J"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModuleCell" id="uwK-hF-uWi" customClass="PeripheralModulesTableViewCell" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ModuleCell" id="uwK-hF-uWi" customClass="PeripheralModulesTableViewCell" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="135.5" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="uwK-hF-uWi" id="pU5-lL-MAz">
@@ -1234,7 +1235,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20784313730000001" green="0.20784313730000001" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Pf7-P7-5Sj" firstAttribute="leading" secondItem="UKe-QB-oWy" secondAttribute="leading" id="Ab8-hF-0YA">
                                 <variation key="heightClass=regular-widthClass=regular" constant="20"/>
@@ -1256,11 +1257,81 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vMu-Qz-G69" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5284" y="856"/>
+            <point key="canvasLocation" x="7284" y="12"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qgR-Ie-QYS">
+            <objects>
+                <navigationController storyboardIdentifier="PeripheralModulesNavigationController" id="Hbd-qc-biR" sceneMemberID="viewController">
+                    <size key="freeformSize" width="414" height="896"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qY7-LK-e1Y">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wxt-pS-VjQ" kind="relationship" relationship="rootViewController" id="wDY-iY-wAl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f5L-TH-nTT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6417" y="12"/>
+        </scene>
+        <!--Empty Details View Controller-->
+        <scene sceneID="qql-Le-6RV">
+            <objects>
+                <viewController storyboardIdentifier="EmptyDetailsViewController" id="v57-NM-Cqs" customClass="EmptyDetailsViewController" customModule="seizureDetection" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UAQ-GB-Y9I">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNs-zT-VPW">
+                                <rect key="frame" x="40.5" y="326.5" width="333" height="333"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="RIo-Cm-5ea"/>
+                                    <constraint firstAttribute="width" secondItem="HNs-zT-VPW" secondAttribute="height" multiplier="1:1" id="uep-ct-hZQ"/>
+                                </constraints>
+                            </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect a Peripheral from the list on the left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOd-Tr-7jb">
+                                <rect key="frame" x="20" y="326" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HNs-zT-VPW" firstAttribute="centerX" secondItem="MfV-VU-5KD" secondAttribute="centerX" id="27I-0i-viA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bOd-Tr-7jb" secondAttribute="trailing" id="9ZZ-u8-xnu"/>
+                            <constraint firstItem="HNs-zT-VPW" firstAttribute="top" secondItem="bOd-Tr-7jb" secondAttribute="bottom" constant="-20" id="aqo-mO-Xzi"/>
+                            <constraint firstItem="bOd-Tr-7jb" firstAttribute="leading" secondItem="UAQ-GB-Y9I" secondAttribute="leadingMargin" id="bzq-cL-pA5"/>
+                            <constraint firstItem="bOd-Tr-7jb" firstAttribute="centerY" secondItem="UAQ-GB-Y9I" secondAttribute="centerY" multiplier="0.75" id="vL8-8y-1fP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MfV-VU-5KD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3hc-Tf-gWe"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="emptyLabel" destination="bOd-Tr-7jb" id="DIX-Oo-iik"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fJu-X4-Yho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8051" y="12"/>
+        </scene>
+        <!--UartModeViewController-->
+        <scene sceneID="vuZ-jp-LfI">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UartModeViewController" storyboardName="Uart" referencedIdentifier="UartModeViewController" id="b8S-ig-3Y3" sceneMemberID="viewController">
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vry-3Q-iLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8759" y="-281"/>
         </scene>
     </scenes>
     <resources>
-        <image name="batterylevel" width="16" height="16"/>
+        <image name="batterylevel" width="16" height="24"/>
         <image name="collect" width="250" height="362"/>
         <image name="history" width="250" height="362"/>
         <image name="ic_arrow_drop_down" width="24" height="24"/>

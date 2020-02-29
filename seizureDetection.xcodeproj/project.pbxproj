@@ -146,6 +146,23 @@
 		97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */; };
 		97598EE123FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
+		9781E346240A458200A30686 /* Uart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9781E345240A458200A30686 /* Uart.storyboard */; };
+		9781E354240A461A00A30686 /* UartTimetampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E348240A461A00A30686 /* UartTimetampTableViewCell.swift */; };
+		9781E355240A461A00A30686 /* UartMqttSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E349240A461A00A30686 /* UartMqttSettingsViewController.swift */; };
+		9781E356240A461A00A30686 /* UartBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E34A240A461A00A30686 /* UartBaseViewController.swift */; };
+		9781E357240A461A00A30686 /* UartModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E34B240A461A00A30686 /* UartModeViewController.swift */; };
+		9781E358240A461A00A30686 /* UartSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E34C240A461A00A30686 /* UartSettingTableViewCell.swift */; };
+		9781E359240A461A00A30686 /* UartSelectPeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E34D240A461A00A30686 /* UartSelectPeripheralViewController.swift */; };
+		9781E35A240A461A00A30686 /* MqttSettingsValueAndSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E34F240A461A00A30686 /* MqttSettingsValueAndSelector.swift */; };
+		9781E35B240A461A00A30686 /* MqttSettingsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E350240A461A00A30686 /* MqttSettingsHeaderCell.swift */; };
+		9781E35C240A461A00A30686 /* MqttSettingsStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E351240A461A00A30686 /* MqttSettingsStatusCell.swift */; };
+		9781E35D240A461A00A30686 /* MqttSettingPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E352240A461A00A30686 /* MqttSettingPickerCell.swift */; };
+		9781E35E240A461A00A30686 /* UartSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E353240A461A00A30686 /* UartSettingsViewController.swift */; };
+		9781E365240A464F00A30686 /* PeripheralServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E360240A464E00A30686 /* PeripheralServiceViewController.swift */; };
+		9781E366240A464F00A30686 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E361240A464E00A30686 /* ServiceTableViewCell.swift */; };
+		9781E367240A464F00A30686 /* GattServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E362240A464E00A30686 /* GattServerViewController.swift */; };
+		9781E368240A464F00A30686 /* DeviceInformationServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E363240A464E00A30686 /* DeviceInformationServiceViewController.swift */; };
+		9781E369240A464F00A30686 /* UartServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E364240A464E00A30686 /* UartServiceViewController.swift */; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 		97FF4EBA23FFC476008C02EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EAF23FFC476008C02EE /* LICENSE */; };
 		97FF4EBB23FFC476008C02EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EB023FFC476008C02EE /* README.md */; };
@@ -463,6 +480,23 @@
 		97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDetailsViewController.swift; sourceTree = "<group>"; };
 		97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationUartSamplerViewController.swift; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		9781E345240A458200A30686 /* Uart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Uart.storyboard; sourceTree = "<group>"; };
+		9781E348240A461A00A30686 /* UartTimetampTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartTimetampTableViewCell.swift; sourceTree = "<group>"; };
+		9781E349240A461A00A30686 /* UartMqttSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartMqttSettingsViewController.swift; sourceTree = "<group>"; };
+		9781E34A240A461A00A30686 /* UartBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartBaseViewController.swift; sourceTree = "<group>"; };
+		9781E34B240A461A00A30686 /* UartModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartModeViewController.swift; sourceTree = "<group>"; };
+		9781E34C240A461A00A30686 /* UartSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartSettingTableViewCell.swift; sourceTree = "<group>"; };
+		9781E34D240A461A00A30686 /* UartSelectPeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartSelectPeripheralViewController.swift; sourceTree = "<group>"; };
+		9781E34F240A461A00A30686 /* MqttSettingsValueAndSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MqttSettingsValueAndSelector.swift; sourceTree = "<group>"; };
+		9781E350240A461A00A30686 /* MqttSettingsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MqttSettingsHeaderCell.swift; sourceTree = "<group>"; };
+		9781E351240A461A00A30686 /* MqttSettingsStatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MqttSettingsStatusCell.swift; sourceTree = "<group>"; };
+		9781E352240A461A00A30686 /* MqttSettingPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MqttSettingPickerCell.swift; sourceTree = "<group>"; };
+		9781E353240A461A00A30686 /* UartSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartSettingsViewController.swift; sourceTree = "<group>"; };
+		9781E360240A464E00A30686 /* PeripheralServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralServiceViewController.swift; sourceTree = "<group>"; };
+		9781E361240A464E00A30686 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		9781E362240A464E00A30686 /* GattServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GattServerViewController.swift; sourceTree = "<group>"; };
+		9781E363240A464E00A30686 /* DeviceInformationServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationServiceViewController.swift; sourceTree = "<group>"; };
+		9781E364240A464E00A30686 /* UartServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartServiceViewController.swift; sourceTree = "<group>"; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		97F83D432400A0CA005A0B89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FF4EAF23FFC476008C02EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -553,6 +587,7 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
+				9781E344240A455B00A30686 /* Storyboards */,
 				97F83D432400A0CA005A0B89 /* Info.plist */,
 				97598CD723FCDCBA0088FC7B /* Config.swift */,
 				97598DA123FDBC2B0088FC7B /* seizureDetection-Bridging-Header.h */,
@@ -564,9 +599,7 @@
 				97279F7423F114B200B2BAFB /* SceneDelegate.swift */,
 				97279F7623F114B200B2BAFB /* ViewController.swift */,
 				975D3D7F23F2173A0054944F /* Checkbox.swift */,
-				97279F7823F114B200B2BAFB /* Main.storyboard */,
 				97279F7B23F114B500B2BAFB /* Assets.xcassets */,
-				97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */,
 				97598E2223FDC36B0088FC7B /* Controllers */,
 				97598DF323FDC2A90088FC7B /* Model */,
 				97598DC223FDC1EB0088FC7B /* Utils */,
@@ -1072,6 +1105,8 @@
 		97598E2223FDC36B0088FC7B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9781E35F240A464E00A30686 /* GattServer */,
+				9781E347240A461A00A30686 /* Uart */,
 				97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */,
 				97598E2923FDC36B0088FC7B /* Calibration */,
 				97598E5423FDC36C0088FC7B /* ModeTabs */,
@@ -1160,6 +1195,54 @@
 				97598ED923FDC8A90088FC7B /* PeripheralModulesViewController.swift */,
 			);
 			path = PeripheralModules;
+			sourceTree = "<group>";
+		};
+		9781E344240A455B00A30686 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */,
+				97279F7823F114B200B2BAFB /* Main.storyboard */,
+				9781E345240A458200A30686 /* Uart.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9781E347240A461A00A30686 /* Uart */ = {
+			isa = PBXGroup;
+			children = (
+				9781E348240A461A00A30686 /* UartTimetampTableViewCell.swift */,
+				9781E349240A461A00A30686 /* UartMqttSettingsViewController.swift */,
+				9781E34A240A461A00A30686 /* UartBaseViewController.swift */,
+				9781E34B240A461A00A30686 /* UartModeViewController.swift */,
+				9781E34C240A461A00A30686 /* UartSettingTableViewCell.swift */,
+				9781E34D240A461A00A30686 /* UartSelectPeripheralViewController.swift */,
+				9781E34E240A461A00A30686 /* Mqtt */,
+				9781E353240A461A00A30686 /* UartSettingsViewController.swift */,
+			);
+			path = Uart;
+			sourceTree = "<group>";
+		};
+		9781E34E240A461A00A30686 /* Mqtt */ = {
+			isa = PBXGroup;
+			children = (
+				9781E34F240A461A00A30686 /* MqttSettingsValueAndSelector.swift */,
+				9781E350240A461A00A30686 /* MqttSettingsHeaderCell.swift */,
+				9781E351240A461A00A30686 /* MqttSettingsStatusCell.swift */,
+				9781E352240A461A00A30686 /* MqttSettingPickerCell.swift */,
+			);
+			path = Mqtt;
+			sourceTree = "<group>";
+		};
+		9781E35F240A464E00A30686 /* GattServer */ = {
+			isa = PBXGroup;
+			children = (
+				9781E360240A464E00A30686 /* PeripheralServiceViewController.swift */,
+				9781E361240A464E00A30686 /* ServiceTableViewCell.swift */,
+				9781E362240A464E00A30686 /* GattServerViewController.swift */,
+				9781E363240A464E00A30686 /* DeviceInformationServiceViewController.swift */,
+				9781E364240A464E00A30686 /* UartServiceViewController.swift */,
+			);
+			path = GattServer;
 			sourceTree = "<group>";
 		};
 		97FF4EAE23FFC476008C02EE /* ZIPFoundation */ = {
@@ -1337,6 +1420,7 @@
 				97598D9423FD380D0088FC7B /* mime.xml in Resources */,
 				97598DB923FDC1C30088FC7B /* visualization.scn in Resources */,
 				97598D8F23FD380D0088FC7B /* coder.xml in Resources */,
+				9781E346240A458200A30686 /* Uart.storyboard in Resources */,
 				97598DBD23FDC1C30088FC7B /* NeopixelBoards.plist in Resources */,
 				97598DBA23FDC1C30088FC7B /* GyroscopeParameters.plist in Resources */,
 				97598D8C23FD380D0088FC7B /* quantization-table.xml in Resources */,
@@ -1399,18 +1483,23 @@
 				9759681223FC70840088FC7B /* BleManager.swift in Sources */,
 				9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */,
 				97598E0F23FDC2A90088FC7B /* VectorMath+Calibration.swift in Sources */,
+				9781E35B240A461A00A30686 /* MqttSettingsHeaderCell.swift in Sources */,
 				97598DDC23FDC1EB0088FC7B /* Color+DarkerLighter.swift in Sources */,
 				97598DD323FDC1EB0088FC7B /* CocoaCompatibility.swift in Sources */,
 				97598EB523FDC36C0088FC7B /* ControllerComponentsTableViewCell.swift in Sources */,
 				97FF4EBC23FFC476008C02EE /* Archive.swift in Sources */,
+				9781E356240A461A00A30686 /* UartBaseViewController.swift in Sources */,
+				9781E366240A464F00A30686 /* ServiceTableViewCell.swift in Sources */,
 				97598EAE23FDC36C0088FC7B /* ModeTabsViewController.swift in Sources */,
 				9759681923FC70840088FC7B /* Int+Bytes.swift in Sources */,
 				97598EB023FDC36C0088FC7B /* ScrollingTabBarCollectionViewCell.swift in Sources */,
 				97FF4EBD23FFC476008C02EE /* Archive+Reading.swift in Sources */,
 				97598E1823FDC2A90088FC7B /* ThermalCameraModuleManager.swift in Sources */,
+				9781E35A240A461A00A30686 /* MqttSettingsValueAndSelector.swift in Sources */,
 				9759680F23FC70840088FC7B /* UartPeripheralService.swift in Sources */,
 				975D3D8023F2173A0054944F /* Checkbox.swift in Sources */,
 				97FF4EBF23FFC476008C02EE /* Data+Compression.swift in Sources */,
+				9781E354240A461A00A30686 /* UartTimetampTableViewCell.swift in Sources */,
 				97FF4EBE23FFC476008C02EE /* Entry.swift in Sources */,
 				9759681623FC70840088FC7B /* BlePeripheral+Uart.swift in Sources */,
 				97598E9623FDC36C0088FC7B /* GyroscopePageDataViewController.swift in Sources */,
@@ -1418,8 +1507,10 @@
 				9759681C23FC70840088FC7B /* Data+ScanValue.swift in Sources */,
 				97598EC623FDC36C0088FC7B /* AboutViewController.swift in Sources */,
 				97598EC823FDC36C0088FC7B /* ScannerViewController.swift in Sources */,
+				9781E358240A461A00A30686 /* UartSettingTableViewCell.swift in Sources */,
 				9759681023FC70840088FC7B /* BleUUIDNames.swift in Sources */,
 				97598E8C23FDC36C0088FC7B /* VisualizationProgressViewController.swift in Sources */,
+				9781E368240A464F00A30686 /* DeviceInformationServiceViewController.swift in Sources */,
 				97598DEF23FDC1F20088FC7B /* StyledConnectButton.swift in Sources */,
 				97598EDA23FDC8AA0088FC7B /* PeripheralModulesDeviceTableViewCell.swift in Sources */,
 				97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */,
@@ -1431,10 +1522,13 @@
 				97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */,
 				97598DD123FDC1EB0088FC7B /* DataDownloader.swift in Sources */,
 				97598E8F23FDC36C0088FC7B /* SensorConfigViewController.swift in Sources */,
+				9781E359240A461A00A30686 /* UartSelectPeripheralViewController.swift in Sources */,
 				97598E9823FDC36C0088FC7B /* GyroscopePageContentViewController.swift in Sources */,
 				97598DD223FDC1EB0088FC7B /* AlertHelper.swift in Sources */,
 				97598E1523FDC2A90088FC7B /* ReleasesParser.swift in Sources */,
+				9781E365240A464F00A30686 /* PeripheralServiceViewController.swift in Sources */,
 				97598E1423FDC2A90088FC7B /* NeopixelModuleManager.swift in Sources */,
+				9781E35C240A461A00A30686 /* MqttSettingsStatusCell.swift in Sources */,
 				97598DD423FDC1EB0088FC7B /* MathUtils.swift in Sources */,
 				97598DEC23FDC1F20088FC7B /* StyleConfig.swift in Sources */,
 				97FF4EC223FFC476008C02EE /* FileManager+ZIP.swift in Sources */,
@@ -1448,6 +1542,9 @@
 				97598E1123FDC2A90088FC7B /* Calibration+Mahony.swift in Sources */,
 				97598E8B23FDC36C0088FC7B /* VisualizationParametersViewController.swift in Sources */,
 				9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */,
+				9781E369240A464F00A30686 /* UartServiceViewController.swift in Sources */,
+				9781E355240A461A00A30686 /* UartMqttSettingsViewController.swift in Sources */,
+				9781E35D240A461A00A30686 /* MqttSettingPickerCell.swift in Sources */,
 				9759680C23FC70840088FC7B /* DeviceInformationPeripheralService.swift in Sources */,
 				97598DEB23FDC1F20088FC7B /* StyledButton.swift in Sources */,
 				97598E1323FDC2A90088FC7B /* MqttSettings.swift in Sources */,
@@ -1464,6 +1561,7 @@
 				97598EB223FDC36C0088FC7B /* ControllerPadViewController.swift in Sources */,
 				9759681123FC70840088FC7B /* BlePeripheral.swift in Sources */,
 				97598E8D23FDC36C0088FC7B /* VisualizationViewController.swift in Sources */,
+				9781E35E240A461A00A30686 /* UartSettingsViewController.swift in Sources */,
 				97598DEE23FDC1F20088FC7B /* StyledAnimations.swift in Sources */,
 				97598E2123FDC2AA0088FC7B /* UartSettings.swift in Sources */,
 				97598E9B23FDC36C0088FC7B /* PageContentViewController.swift in Sources */,
@@ -1475,11 +1573,13 @@
 				9759681523FC70840088FC7B /* UartPacketManager.swift in Sources */,
 				9759680E23FC70840088FC7B /* PeripheralService.swift in Sources */,
 				97598EC523FDC36C0088FC7B /* FilterTextSettingsViewController.swift in Sources */,
+				9781E367240A464F00A30686 /* GattServerViewController.swift in Sources */,
 				97598DD823FDC1EB0088FC7B /* DataFormatter.swift in Sources */,
 				97598DDB23FDC1EB0088FC7B /* WatchSessionManager.swift in Sources */,
 				9759680D23FC70840088FC7B /* GattServer.swift in Sources */,
 				97598DD623FDC1EB0088FC7B /* LocalizationManager.swift in Sources */,
 				97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */,
+				9781E357240A461A00A30686 /* UartModeViewController.swift in Sources */,
 				97598E2023FDC2A90088FC7B /* UartDataExport.swift in Sources */,
 				97598E1D23FDC2A90088FC7B /* PeripheralList.swift in Sources */,
 				97598E1723FDC2A90088FC7B /* DfuUpdateProcess.swift in Sources */,
