@@ -278,7 +278,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                 <rect key="frame" x="187" y="0.0" width="187" height="267"/>
                                                 <state key="normal" title="Button" image="plot"/>
                                                 <connections>
-                                                    <segue destination="Elj-Zf-gSd" kind="show" id="Z5K-9G-SlN"/>
+                                                    <segue destination="aRf-vb-szn" kind="show" id="oju-hP-lt0"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -328,22 +328,6 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSc-1g-f3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2460.8695652173915" y="560.49107142857144"/>
-        </scene>
-        <!--Plot EEG-->
-        <scene sceneID="wMq-sf-32l">
-            <objects>
-                <viewController id="Elj-Zf-gSd" userLabel="Plot EEG" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="A9i-Qf-NlT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="lN0-Ht-Bxi"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8n7-em-8AX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xdy-xA-NoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3909" y="1003"/>
         </scene>
         <!--History-->
         <scene sceneID="DrH-Cg-hoE">
@@ -405,7 +389,6 @@ Upon termination, Your right to use the Service will cease immediately.</string>
         <!--Connect Device-->
         <scene sceneID="CRq-C1-6Yh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D6H-LU-r4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ScannerViewController" automaticallyAdjustsScrollViewInsets="NO" id="mvj-Jr-OuD" userLabel="Connect Device" customClass="ScannerViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LW8-EU-hn3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
@@ -1085,6 +1068,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <outlet property="multiConnectTitleLabel" destination="X8p-7Q-0sQ" id="d5j-9l-oI0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D6H-LU-r4S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3937" y="11"/>
         </scene>
@@ -1328,6 +1312,83 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vry-3Q-iLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8759" y="-281"/>
+        </scene>
+        <!--Plotter-->
+        <scene sceneID="jxb-Gv-bQz">
+            <objects>
+                <viewController storyboardIdentifier="PlotterModeViewController" id="aRf-vb-szn" customClass="PlotterModeViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VUp-TC-3Lj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P5t-TB-f8S" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="20" y="124" width="374" height="687"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="6ZM-gd-pDo">
+                                <rect key="frame" x="20" y="821" width="119" height="31"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="AutoScroll: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqJ-Pq-BqQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="31"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zh6-Rz-k6q">
+                                        <rect key="frame" x="70" y="0.0" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.088944101230000003" green="0.57494231630000003" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="onAutoScrollChanged:" destination="aRf-vb-szn" eventType="valueChanged" id="EBF-g7-vnB"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxs-W0-587">
+                                <rect key="frame" x="159" y="821.5" width="235" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Width: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZo-wS-GyZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <color key="textColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="6" maxValue="100" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaF-tO-MSh">
+                                        <rect key="frame" x="41.5" y="0.0" width="195.5" height="31"/>
+                                        <connections>
+                                            <action selector="onXScaleValueChanged:" destination="aRf-vb-szn" eventType="valueChanged" id="0Ho-ER-soA"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20874811460000001" green="0.20874811460000001" blue="0.20874811460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6ZM-gd-pDo" firstAttribute="leading" secondItem="VUp-TC-3Lj" secondAttribute="leadingMargin" id="8xp-X9-Wgb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xxs-W0-587" secondAttribute="trailing" id="Iko-4P-SwT"/>
+                            <constraint firstItem="P5t-TB-f8S" firstAttribute="top" secondItem="8iH-EK-Xyd" secondAttribute="top" constant="36" id="MM6-n0-ciR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P5t-TB-f8S" secondAttribute="trailing" id="UUN-A1-NrR"/>
+                            <constraint firstItem="xxs-W0-587" firstAttribute="leading" secondItem="6ZM-gd-pDo" secondAttribute="trailing" constant="20" id="Vxi-vg-N0C"/>
+                            <constraint firstItem="8iH-EK-Xyd" firstAttribute="bottom" secondItem="6ZM-gd-pDo" secondAttribute="bottom" constant="10" id="jIl-d5-RjM"/>
+                            <constraint firstItem="P5t-TB-f8S" firstAttribute="leading" secondItem="VUp-TC-3Lj" secondAttribute="leadingMargin" id="wc1-sY-PkY"/>
+                            <constraint firstItem="xxs-W0-587" firstAttribute="centerY" secondItem="6ZM-gd-pDo" secondAttribute="centerY" id="wfb-ao-jn4"/>
+                            <constraint firstItem="6ZM-gd-pDo" firstAttribute="top" secondItem="P5t-TB-f8S" secondAttribute="bottom" constant="10" id="yBw-eW-Sfo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8iH-EK-Xyd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Plotter" id="Ob5-xQ-EJG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="autoscrollButton" destination="zh6-Rz-k6q" id="jWs-pY-S9b"/>
+                        <outlet property="autoscrollLabel" destination="sqJ-Pq-BqQ" id="jTg-9s-XkZ"/>
+                        <outlet property="chartView" destination="P5t-TB-f8S" id="67d-jP-eGg"/>
+                        <outlet property="widthLabel" destination="jZo-wS-GyZ" id="Fgl-jt-TKp"/>
+                        <outlet property="xMaxEntriesSlider" destination="AaF-tO-MSh" id="PKi-n1-Ttg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HRI-69-Qb6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3907" y="832"/>
         </scene>
     </scenes>
     <resources>

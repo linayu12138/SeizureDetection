@@ -163,6 +163,7 @@
 		9781E367240A464F00A30686 /* GattServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E362240A464E00A30686 /* GattServerViewController.swift */; };
 		9781E368240A464F00A30686 /* DeviceInformationServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E363240A464E00A30686 /* DeviceInformationServiceViewController.swift */; };
 		9781E369240A464F00A30686 /* UartServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E364240A464E00A30686 /* UartServiceViewController.swift */; };
+		97B1C0222412F11C00F3BD5B /* PlotterModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B1C0212412F11C00F3BD5B /* PlotterModeViewController.swift */; };
 		97BBD7F823F8FE3000BADB41 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */; };
 		97FF4EBA23FFC476008C02EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EAF23FFC476008C02EE /* LICENSE */; };
 		97FF4EBB23FFC476008C02EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 97FF4EB023FFC476008C02EE /* README.md */; };
@@ -497,6 +498,7 @@
 		9781E362240A464E00A30686 /* GattServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GattServerViewController.swift; sourceTree = "<group>"; };
 		9781E363240A464E00A30686 /* DeviceInformationServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationServiceViewController.swift; sourceTree = "<group>"; };
 		9781E364240A464E00A30686 /* UartServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartServiceViewController.swift; sourceTree = "<group>"; };
+		97B1C0212412F11C00F3BD5B /* PlotterModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotterModeViewController.swift; sourceTree = "<group>"; };
 		97BBD7F723F8FE3000BADB41 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		97F83D432400A0CA005A0B89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97FF4EAF23FFC476008C02EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -1105,6 +1107,7 @@
 		97598E2223FDC36B0088FC7B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				97B1C0202412F11C00F3BD5B /* Plotter */,
 				9781E35F240A464E00A30686 /* GattServer */,
 				9781E347240A461A00A30686 /* Uart */,
 				97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */,
@@ -1243,6 +1246,14 @@
 				9781E364240A464E00A30686 /* UartServiceViewController.swift */,
 			);
 			path = GattServer;
+			sourceTree = "<group>";
+		};
+		97B1C0202412F11C00F3BD5B /* Plotter */ = {
+			isa = PBXGroup;
+			children = (
+				97B1C0212412F11C00F3BD5B /* PlotterModeViewController.swift */,
+			);
+			path = Plotter;
 			sourceTree = "<group>";
 		};
 		97FF4EAE23FFC476008C02EE /* ZIPFoundation */ = {
@@ -1482,6 +1493,7 @@
 				97598E8E23FDC36C0088FC7B /* CalibrationUartViewController.swift in Sources */,
 				9759681223FC70840088FC7B /* BleManager.swift in Sources */,
 				9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */,
+				97B1C0222412F11C00F3BD5B /* PlotterModeViewController.swift in Sources */,
 				97598E0F23FDC2A90088FC7B /* VectorMath+Calibration.swift in Sources */,
 				9781E35B240A461A00A30686 /* MqttSettingsHeaderCell.swift in Sources */,
 				97598DDC23FDC1EB0088FC7B /* Color+DarkerLighter.swift in Sources */,

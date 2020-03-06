@@ -80,7 +80,7 @@
                                                 </connections>
                                             </segmentedControl>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H02-he-5Dt">
-                                                <rect key="frame" x="661" y="7" width="45" height="27"/>
+                                                <rect key="frame" x="624" y="-6.5" width="64" height="54"/>
                                                 <inset key="contentEdgeInsets" minX="13" minY="0.0" maxX="13" maxY="0.0"/>
                                                 <state key="normal" image="action_icon"/>
                                                 <connections>
@@ -88,7 +88,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKq-ti-63A">
-                                                <rect key="frame" x="716" y="8" width="44" height="25"/>
+                                                <rect key="frame" x="698" y="-4.5" width="62" height="50"/>
                                                 <inset key="contentEdgeInsets" minX="13" minY="0.0" maxX="13" maxY="0.0"/>
                                                 <state key="normal" image="clear_icon"/>
                                                 <connections>
@@ -259,7 +259,7 @@
                                             <action selector="onInputTextFieldEdidtingDidEndOnExit:" destination="qJ1-aq-lo7" eventType="editingDidEndOnExit" id="qmC-YD-1h8"/>
                                         </connections>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6N-B0-vOz" customClass="StyledButton" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6N-B0-vOz" customClass="StyledButton" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="638" y="0.0" width="56" height="18"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Send"/>
@@ -267,7 +267,7 @@
                                             <action selector="onClickSend:" destination="qJ1-aq-lo7" eventType="touchUpInside" id="9EN-6q-qyi"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4C-XS-DOl" customClass="StyledButton" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4C-XS-DOl" customClass="StyledButton" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="702" y="0.0" width="58" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="140" id="jBy-MZ-oLZ"/>
@@ -400,7 +400,7 @@
                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UartSettingSegmentedCell" id="RSg-A6-Qac" customClass="UartSettingTableViewCell" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UartSettingSegmentedCell" id="RSg-A6-Qac" customClass="UartSettingTableViewCell" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="RSg-A6-Qac" id="qMX-iQ-8Em">
@@ -538,8 +538,8 @@
                                                     </constraints>
                                                     <variation key="default">
                                                         <mask key="constraints">
-                                                            <exclude reference="ATs-NN-daP"/>
                                                             <exclude reference="0j9-xJ-Wxk"/>
+                                                            <exclude reference="ATs-NN-daP"/>
                                                         </mask>
                                                     </variation>
                                                 </view>
@@ -584,7 +584,7 @@
         <!--Uart Mqtt Settings View Controller-->
         <scene sceneID="Iq3-fX-g4s">
             <objects>
-                <viewController storyboardIdentifier="UartMqttSettingsViewController" id="G6r-bX-gs4" customClass="UartMqttSettingsViewController" customModule="Bluefruit_Connect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UartMqttSettingsViewController" id="G6r-bX-gs4" customClass="UartMqttSettingsViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sPo-HT-at7"/>
                         <viewControllerLayoutGuide type="bottom" id="wNx-kS-foR"/>
@@ -597,7 +597,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StatusCell" id="jHX-1q-dCM" customClass="MqttSettingsStatusCell" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StatusCell" id="jHX-1q-dCM" customClass="MqttSettingsStatusCell" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="jHX-1q-dCM" id="cpI-6P-xWb">
@@ -693,7 +693,7 @@
                                             <outlet property="nameLabel" destination="O5C-5S-xXL" id="jJg-sk-LoY"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ValueCell" id="bGs-nx-qKV" customClass="MqttSettingsValueAndSelector" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ValueCell" id="bGs-nx-qKV" customClass="MqttSettingsValueAndSelector" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="143.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="bGs-nx-qKV" id="7GR-5G-LqL">
@@ -727,7 +727,7 @@
                                             <outlet property="valueTextField" destination="56P-IX-gcD" id="PsM-JG-oId"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ValueAndSelectorCell" id="mNH-rq-CeK" customClass="MqttSettingsValueAndSelector" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ValueAndSelectorCell" id="mNH-rq-CeK" customClass="MqttSettingsValueAndSelector" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="187.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="mNH-rq-CeK" id="KOS-Kq-cdp">
@@ -770,7 +770,7 @@
                                             <outlet property="valueTextField" destination="mNU-3f-Mu6" id="Qff-cX-W5S"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SelectorCell" id="Dtn-Aa-ecQ" customClass="MqttSettingsValueAndSelector" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SelectorCell" id="Dtn-Aa-ecQ" customClass="MqttSettingsValueAndSelector" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="231.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="Dtn-Aa-ecQ" id="j1H-m2-cnd">
@@ -805,7 +805,7 @@
                                             <outlet property="typeButton" destination="J2L-Hc-lxn" id="WRX-Jz-ujd"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PickerCell" rowHeight="100" id="3Ty-T9-LJT" customClass="MqttSettingPickerCell" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PickerCell" rowHeight="100" id="3Ty-T9-LJT" customClass="MqttSettingPickerCell" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="275.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="3Ty-T9-LJT" id="Wbl-d3-HSH">
@@ -1124,7 +1124,7 @@
                                             <action selector="onInputTextFieldEdidtingDidEndOnExit:" destination="WA4-uk-jHd" eventType="editingDidEndOnExit" id="rSv-lj-WCF"/>
                                         </connections>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lO9-be-9DH" customClass="StyledButton" customModule="Bluefruit_Connect" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lO9-be-9DH" customClass="StyledButton" customModule="seizureDetection" customModuleProvider="target">
                                         <rect key="frame" x="704" y="0.0" width="56" height="18"/>
                                         <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                         <state key="normal" title="Send"/>
@@ -1222,6 +1222,6 @@
         <image name="ic_settings" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Xso-i0-6EX"/>
+        <segue reference="7or-qv-jQf"/>
     </inferredMetricsTieBreakers>
 </document>
