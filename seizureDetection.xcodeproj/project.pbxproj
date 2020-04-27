@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		76350B28F52044F6C05D9B14 /* libPods-seizureDetection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D2AF9D6730C2C16D5F5F84 /* libPods-seizureDetection.a */; };
+		9721D97E245680960099FA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9721D97D245680960099FA10 /* Assets.xcassets */; };
+		9721D98324569DFD0099FA10 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721D98024569DFC0099FA10 /* CanvasView.swift */; };
+		9721D98424569DFD0099FA10 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721D98124569DFD0099FA10 /* UIImageExtension.swift */; };
+		9721D98524569DFD0099FA10 /* MLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9721D98224569DFD0099FA10 /* MLViewController.swift */; };
+		9721D98724569E160099FA10 /* handWritten.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9721D98624569E160099FA10 /* handWritten.mlmodel */; };
 		97279F7323F114B200B2BAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7223F114B200B2BAFB /* AppDelegate.swift */; };
 		97279F7523F114B200B2BAFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7423F114B200B2BAFB /* SceneDelegate.swift */; };
 		97279F7723F114B200B2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7623F114B200B2BAFB /* ViewController.swift */; };
 		97279F7A23F114B200B2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7823F114B200B2BAFB /* Main.storyboard */; };
-		97279F7C23F114B500B2BAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7B23F114B500B2BAFB /* Assets.xcassets */; };
 		97279F7F23F114B500B2BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */; };
 		9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F423FC70840088FC7B /* UartPacketManagerBase.swift */; };
 		9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */; };
@@ -207,12 +211,16 @@
 		14D2AF9D6730C2C16D5F5F84 /* libPods-seizureDetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seizureDetection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C5785B4C5D02EB4E41F84F /* Pods-seizureDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seizureDetection.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-seizureDetection/Pods-seizureDetection.release.xcconfig"; sourceTree = "<group>"; };
 		78212D24016E94E2D35E32DE /* Pods-seizureDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seizureDetection.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-seizureDetection/Pods-seizureDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		9721D97D245680960099FA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9721D98024569DFC0099FA10 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		9721D98124569DFD0099FA10 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9721D98224569DFD0099FA10 /* MLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLViewController.swift; sourceTree = "<group>"; };
+		9721D98624569E160099FA10 /* handWritten.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = handWritten.mlmodel; sourceTree = "<group>"; };
 		97279F6F23F114B200B2BAFB /* seizureDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seizureDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F7223F114B200B2BAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97279F7423F114B200B2BAFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97279F7623F114B200B2BAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97279F7923F114B200B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97279F7B23F114B500B2BAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97279F7E23F114B500B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97279F8523F114B500B2BAFB /* seizureDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -565,6 +573,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9721D97F24569AF90099FA10 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				9721D98624569E160099FA10 /* handWritten.mlmodel */,
+				9721D98024569DFC0099FA10 /* CanvasView.swift */,
+				9721D98124569DFD0099FA10 /* UIImageExtension.swift */,
+				9721D98224569DFD0099FA10 /* MLViewController.swift */,
+			);
+			path = "ML Model";
+			sourceTree = "<group>";
+		};
 		97279F6623F114B200B2BAFB = {
 			isa = PBXGroup;
 			children = (
@@ -589,6 +608,7 @@
 		97279F7123F114B200B2BAFB /* seizureDetection */ = {
 			isa = PBXGroup;
 			children = (
+				9721D97D245680960099FA10 /* Assets.xcassets */,
 				9781E344240A455B00A30686 /* Storyboards */,
 				97F83D432400A0CA005A0B89 /* Info.plist */,
 				97598CD723FCDCBA0088FC7B /* Config.swift */,
@@ -601,7 +621,6 @@
 				97279F7423F114B200B2BAFB /* SceneDelegate.swift */,
 				97279F7623F114B200B2BAFB /* ViewController.swift */,
 				975D3D7F23F2173A0054944F /* Checkbox.swift */,
-				97279F7B23F114B500B2BAFB /* Assets.xcassets */,
 				97598E2223FDC36B0088FC7B /* Controllers */,
 				97598DF323FDC2A90088FC7B /* Model */,
 				97598DC223FDC1EB0088FC7B /* Utils */,
@@ -1107,6 +1126,7 @@
 		97598E2223FDC36B0088FC7B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9721D97F24569AF90099FA10 /* ML Model */,
 				97B1C0202412F11C00F3BD5B /* Plotter */,
 				9781E35F240A464E00A30686 /* GattServer */,
 				9781E347240A461A00A30686 /* Uart */,
@@ -1421,7 +1441,6 @@
 				97598D9023FD380D0088FC7B /* type.xml in Resources */,
 				97FF4EBB23FFC476008C02EE /* README.md in Resources */,
 				97598D9323FD380D0088FC7B /* thresholds.xml in Resources */,
-				97279F7C23F114B500B2BAFB /* Assets.xcassets in Resources */,
 				97598DB823FDC1C30088FC7B /* AccelerometerParameters.plist in Resources */,
 				97598DBB23FDC1C30088FC7B /* MagnetometerParameters.plist in Resources */,
 				97279F7A23F114B200B2BAFB /* Main.storyboard in Resources */,
@@ -1437,6 +1456,7 @@
 				97598D8C23FD380D0088FC7B /* quantization-table.xml in Resources */,
 				97598CDB23FCE4CE0088FC7B /* Settings.bundle in Resources */,
 				97598DBC23FDC1C30088FC7B /* NeopixelDefaultPalette.plist in Resources */,
+				9721D97E245680960099FA10 /* Assets.xcassets in Resources */,
 				97598D9223FD380D0088FC7B /* delegates.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1522,6 +1542,7 @@
 				9781E358240A461A00A30686 /* UartSettingTableViewCell.swift in Sources */,
 				9759681023FC70840088FC7B /* BleUUIDNames.swift in Sources */,
 				97598E8C23FDC36C0088FC7B /* VisualizationProgressViewController.swift in Sources */,
+				9721D98724569E160099FA10 /* handWritten.mlmodel in Sources */,
 				9781E368240A464F00A30686 /* DeviceInformationServiceViewController.swift in Sources */,
 				97598DEF23FDC1F20088FC7B /* StyledConnectButton.swift in Sources */,
 				97598EDA23FDC8AA0088FC7B /* PeripheralModulesDeviceTableViewCell.swift in Sources */,
@@ -1545,6 +1566,7 @@
 				97598DEC23FDC1F20088FC7B /* StyleConfig.swift in Sources */,
 				97FF4EC223FFC476008C02EE /* FileManager+ZIP.swift in Sources */,
 				97598E9723FDC36C0088FC7B /* GyroscopeViewController.swift in Sources */,
+				9721D98324569DFD0099FA10 /* CanvasView.swift in Sources */,
 				97FF4EC123FFC476008C02EE /* Data+Serialization.swift in Sources */,
 				97598DF223FDC1F20088FC7B /* GradientView.swift in Sources */,
 				97598E1E23FDC2A90088FC7B /* RssiUI.swift in Sources */,
@@ -1554,6 +1576,7 @@
 				97598E1123FDC2A90088FC7B /* Calibration+Mahony.swift in Sources */,
 				97598E8B23FDC36C0088FC7B /* VisualizationParametersViewController.swift in Sources */,
 				9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */,
+				9721D98424569DFD0099FA10 /* UIImageExtension.swift in Sources */,
 				9781E369240A464F00A30686 /* UartServiceViewController.swift in Sources */,
 				9781E355240A461A00A30686 /* UartMqttSettingsViewController.swift in Sources */,
 				9781E35D240A461A00A30686 /* MqttSettingPickerCell.swift in Sources */,
@@ -1587,6 +1610,7 @@
 				97598EC523FDC36C0088FC7B /* FilterTextSettingsViewController.swift in Sources */,
 				9781E367240A464F00A30686 /* GattServerViewController.swift in Sources */,
 				97598DD823FDC1EB0088FC7B /* DataFormatter.swift in Sources */,
+				9721D98524569DFD0099FA10 /* MLViewController.swift in Sources */,
 				97598DDB23FDC1EB0088FC7B /* WatchSessionManager.swift in Sources */,
 				9759680D23FC70840088FC7B /* GattServer.swift in Sources */,
 				97598DD623FDC1EB0088FC7B /* LocalizationManager.swift in Sources */,

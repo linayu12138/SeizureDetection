@@ -65,7 +65,7 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.2831214964389801" green="0.49369347095489502" blue="0.73336189985275269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.32528965205766436" green="0.49290272887323944" blue="0.69628003365556956" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="mi1-uA-4c8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="17h-hi-X4c"/>
                             <constraint firstItem="yx4-Fo-iD2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Yn-by-iZs"/>
@@ -259,7 +259,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Th3-db-pCE">
-                                <rect key="frame" x="20" y="108" width="374" height="734"/>
+                                <rect key="frame" x="20" y="108" width="374" height="801"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7k-E6-SHQ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="267"/>
@@ -299,19 +299,27 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                     <segue destination="2Y8-En-Hnh" kind="show" id="SIc-Ef-7A1"/>
                                                 </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59p-TX-svW">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zw8-7X-ouN">
                                                 <rect key="frame" x="187" y="0.0" width="187" height="267"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </view>
+                                                <state key="normal" title="Button" image="mlmodel"/>
+                                                <connections>
+                                                    <segue destination="Nzi-oU-LkI" kind="show" id="1Ug-Sv-dDW"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="59p-TX-svW" firstAttribute="width" secondItem="pIT-yt-aWP" secondAttribute="width" id="tZG-Py-do8"/>
+                                            <constraint firstItem="zw8-7X-ouN" firstAttribute="width" secondItem="pIT-yt-aWP" secondAttribute="width" id="VlT-9c-H2j"/>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ke-67-sXv">
-                                        <rect key="frame" x="0.0" y="534" width="374" height="200"/>
+                                        <rect key="frame" x="0.0" y="534" width="374" height="267"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="slM-3m-gOk" firstAttribute="width" secondItem="Th3-db-pCE" secondAttribute="width" id="azi-an-nLW"/>
+                                    <constraint firstItem="3Ke-67-sXv" firstAttribute="height" secondItem="slM-3m-gOk" secondAttribute="height" id="g6D-5Q-iec"/>
+                                    <constraint firstItem="slM-3m-gOk" firstAttribute="height" secondItem="i7k-E6-SHQ" secondAttribute="height" id="tvL-IX-Ogn"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -336,14 +344,26 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                     <view key="view" contentMode="scaleToFill" id="oYP-cs-bDv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rOE-Ud-ux6">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rOE-Ud-ux6" firstAttribute="leading" secondItem="ZHI-vA-oPa" secondAttribute="leading" id="226-K7-XP3"/>
+                            <constraint firstItem="ZHI-vA-oPa" firstAttribute="trailing" secondItem="rOE-Ud-ux6" secondAttribute="trailing" id="D4T-ZT-F1x"/>
+                            <constraint firstItem="ZHI-vA-oPa" firstAttribute="bottom" secondItem="rOE-Ud-ux6" secondAttribute="bottom" id="FvU-io-Cgr"/>
+                            <constraint firstItem="rOE-Ud-ux6" firstAttribute="top" secondItem="ZHI-vA-oPa" secondAttribute="top" id="Nwg-AG-sSs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZHI-vA-oPa"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0Ey-Y0-Ged"/>
+                    <navigationItem key="navigationItem" title="History" id="0Ey-Y0-Ged" userLabel="History"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyU-o4-riS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3909" y="1803"/>
+            <point key="canvasLocation" x="2461" y="1888"/>
         </scene>
         <!--Filter Text Settings View Controller-->
         <scene sceneID="o0w-5I-ud3">
@@ -1390,6 +1410,59 @@ Upon termination, Your right to use the Service will cease immediately.</string>
             </objects>
             <point key="canvasLocation" x="3907" y="832"/>
         </scene>
+        <!--ML Model-->
+        <scene sceneID="e3D-pw-QaG">
+            <objects>
+                <viewController id="Nzi-oU-LkI" customClass="MLViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KdQ-pN-95R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nd8-tt-5Cb" customClass="CanvasView" customModule="seizureDetection" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="380" width="414" height="516"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4m-O3-ae6">
+                                <rect key="frame" x="16" y="322" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearCanvas:" destination="Nzi-oU-LkI" eventType="touchUpInside" id="iWy-k4-v1J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gz-Ay-9v6">
+                                <rect key="frame" x="294" y="322" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Recognize"/>
+                                <connections>
+                                    <action selector="recognize:" destination="Nzi-oU-LkI" eventType="touchUpInside" id="OE0-iy-6zU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-zh-lYb">
+                                <rect key="frame" x="36" y="88" width="343" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="120"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aW0-vk-2HP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ML Model" id="bWr-zz-0T4"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="Awe-zh-lYb" id="SLg-LC-gO1"/>
+                        <outlet property="canvasView" destination="nd8-tt-5Cb" id="AMP-fT-qD2"/>
+                        <outlet property="clearBtn" destination="y4m-O3-ae6" id="oLn-j1-TQh"/>
+                        <outlet property="recognizeBtn" destination="2gz-Ay-9v6" id="4p1-cx-qdD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBn-Ls-IEd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3905.7971014492755" y="1839.5089285714284"/>
+        </scene>
     </scenes>
     <resources>
         <image name="batterylevel" width="16" height="24"/>
@@ -1400,6 +1473,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
         <image name="ic_cancel_18pt" width="18" height="18"/>
         <image name="ic_more_vert" width="24" height="24"/>
         <image name="logo" width="622" height="618"/>
+        <image name="mlmodel" width="202" height="280"/>
         <image name="plot" width="250" height="362"/>
         <image name="signalstrength4" width="24" height="21"/>
     </resources>
