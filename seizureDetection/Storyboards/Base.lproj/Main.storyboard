@@ -259,7 +259,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Th3-db-pCE">
-                                <rect key="frame" x="20" y="108" width="374" height="801"/>
+                                <rect key="frame" x="20" y="108" width="374" height="694"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i7k-E6-SHQ">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="267"/>
@@ -312,12 +312,12 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ke-67-sXv">
-                                        <rect key="frame" x="0.0" y="534" width="374" height="267"/>
+                                        <rect key="frame" x="0.0" y="534" width="374" height="160"/>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="slM-3m-gOk" firstAttribute="width" secondItem="Th3-db-pCE" secondAttribute="width" id="azi-an-nLW"/>
-                                    <constraint firstItem="3Ke-67-sXv" firstAttribute="height" secondItem="slM-3m-gOk" secondAttribute="height" id="g6D-5Q-iec"/>
+                                    <constraint firstItem="3Ke-67-sXv" firstAttribute="height" secondItem="slM-3m-gOk" secondAttribute="height" multiplier="0.6" id="g6D-5Q-iec"/>
                                     <constraint firstItem="slM-3m-gOk" firstAttribute="height" secondItem="i7k-E6-SHQ" secondAttribute="height" id="tvL-IX-Ogn"/>
                                 </constraints>
                             </stackView>
@@ -340,30 +340,17 @@ Upon termination, Your right to use the Service will cease immediately.</string>
         <!--History-->
         <scene sceneID="DrH-Cg-hoE">
             <objects>
-                <viewController id="2Y8-En-Hnh" userLabel="History" sceneMemberID="viewController">
+                <viewController id="2Y8-En-Hnh" userLabel="History" customClass="HistoryViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oYP-cs-bDv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rOE-Ud-ux6">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="rOE-Ud-ux6" firstAttribute="leading" secondItem="ZHI-vA-oPa" secondAttribute="leading" id="226-K7-XP3"/>
-                            <constraint firstItem="ZHI-vA-oPa" firstAttribute="trailing" secondItem="rOE-Ud-ux6" secondAttribute="trailing" id="D4T-ZT-F1x"/>
-                            <constraint firstItem="ZHI-vA-oPa" firstAttribute="bottom" secondItem="rOE-Ud-ux6" secondAttribute="bottom" id="FvU-io-Cgr"/>
-                            <constraint firstItem="rOE-Ud-ux6" firstAttribute="top" secondItem="ZHI-vA-oPa" secondAttribute="top" id="Nwg-AG-sSs"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZHI-vA-oPa"/>
                     </view>
                     <navigationItem key="navigationItem" title="History" id="0Ey-Y0-Ged" userLabel="History"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyU-o4-riS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2461" y="1888"/>
+            <point key="canvasLocation" x="2460.8695652173915" y="1887.7232142857142"/>
         </scene>
         <!--Filter Text Settings View Controller-->
         <scene sceneID="o0w-5I-ud3">
@@ -437,7 +424,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFk-tL-iqF">
-                                                <rect key="frame" x="81" y="0.0" width="44" height="44"/>
+                                                <rect key="frame" x="81" y="-7" width="62" height="58"/>
                                                 <inset key="contentEdgeInsets" minX="13" minY="11" maxX="13" maxY="11"/>
                                                 <state key="normal" image="ic_cancel_18pt"/>
                                                 <connections>
@@ -467,7 +454,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Filter by name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="bKT-WY-MZB">
-                                        <rect key="frame" x="26" y="50" width="309" height="34"/>
+                                        <rect key="frame" x="26" y="50" width="285" height="34"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -478,7 +465,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0o-AB-9pu">
-                                        <rect key="frame" x="343" y="55" width="24" height="24"/>
+                                        <rect key="frame" x="319" y="43" width="48" height="48"/>
                                         <state key="normal" image="ic_more_vert"/>
                                         <connections>
                                             <action selector="onClickFilterNameSettings:" destination="mvj-Jr-OuD" eventType="touchUpInside" id="8uR-FP-3MX"/>
@@ -717,19 +704,19 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                             <rect key="frame" x="0.0" y="0.0" width="335" height="44"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signalstrength4" translatesAutoresizingMaskIntoConstraints="NO" id="BcQ-IF-aUe">
-                                                                    <rect key="frame" x="0.0" y="11.5" width="24" height="21"/>
+                                                                    <rect key="frame" x="0.0" y="1" width="48" height="42"/>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ldK-19-hkk">
-                                                                    <rect key="frame" x="32" y="4" width="209" height="36.5"/>
+                                                                    <rect key="frame" x="56" y="4" width="185" height="36.5"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qlZ-6g-Tg9">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="209" height="20.5"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="185" height="20.5"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdh-Wj-29A">
-                                                                            <rect key="frame" x="0.0" y="20.5" width="209" height="16"/>
+                                                                            <rect key="frame" x="0.0" y="20.5" width="185" height="16"/>
                                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1128,7 +1115,7 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                                     <rect key="frame" x="0.0" y="0.0" width="65" height="22"/>
                                                                     <subviews>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signalstrength4" translatesAutoresizingMaskIntoConstraints="NO" id="aYK-Ev-lt8">
-                                                                            <rect key="frame" x="0.0" y="0.5" width="24" height="21"/>
+                                                                            <rect key="frame" x="0.0" y="-10" width="24" height="42"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-3I-RAb">
                                                                             <rect key="frame" x="32" y="3" width="33" height="16"/>
@@ -1151,10 +1138,10 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                                                                     <rect key="frame" x="85" y="0.0" width="73" height="22"/>
                                                                     <subviews>
                                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="batterylevel" translatesAutoresizingMaskIntoConstraints="NO" id="b67-IH-yNa">
-                                                                            <rect key="frame" x="0.0" y="-1" width="16" height="24"/>
+                                                                            <rect key="frame" x="0.0" y="-13" width="32" height="48"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVR-uA-LTu">
-                                                                            <rect key="frame" x="24" y="3" width="49" height="16"/>
+                                                                            <rect key="frame" x="40" y="3" width="33" height="16"/>
                                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -1462,6 +1449,22 @@ Upon termination, Your right to use the Service will cease immediately.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBn-Ls-IEd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3905.7971014492755" y="1839.5089285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L1D-lp-Rkt">
+            <objects>
+                <viewController id="Eg4-Cc-qCQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gDc-nd-YUb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="vrF-wd-6cl"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KsG-Mi-GBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4720" y="1840"/>
         </scene>
     </scenes>
     <resources>

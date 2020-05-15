@@ -45,6 +45,7 @@ class UartServiceViewController: UartBaseViewController {
     }
     
     override func send(message: String) {
+        print("send reach here1")
         guard let uartData = self.uartData as? UartPeripheralModePacketManager else { DLog("Error send with invalid uartData class"); return }
         guard let uartPeripheralService = uartPeripheralService else  { return }
         

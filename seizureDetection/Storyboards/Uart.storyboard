@@ -80,7 +80,7 @@
                                                 </connections>
                                             </segmentedControl>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H02-he-5Dt">
-                                                <rect key="frame" x="624" y="-6.5" width="64" height="54"/>
+                                                <rect key="frame" x="661" y="7" width="45" height="27"/>
                                                 <inset key="contentEdgeInsets" minX="13" minY="0.0" maxX="13" maxY="0.0"/>
                                                 <state key="normal" image="action_icon"/>
                                                 <connections>
@@ -88,7 +88,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKq-ti-63A">
-                                                <rect key="frame" x="698" y="-4.5" width="62" height="50"/>
+                                                <rect key="frame" x="716" y="8" width="44" height="25"/>
                                                 <inset key="contentEdgeInsets" minX="13" minY="0.0" maxX="13" maxY="0.0"/>
                                                 <state key="normal" image="clear_icon"/>
                                                 <connections>
@@ -343,41 +343,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIO-sj-eCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2636.8000000000002" y="-166.41679160419793"/>
-        </scene>
-        <!--Uart Select Peripheral View Controller-->
-        <scene sceneID="1ak-Ay-k65">
-            <objects>
-                <viewController storyboardIdentifier="UartSelectPeripheralViewController" id="DAj-kL-byZ" customClass="UartSelectPeripheralViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JdJ-BX-jB2"/>
-                        <viewControllerLayoutGuide type="bottom" id="mIj-c8-dYA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="McE-0N-tgi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0GG-5q-Ubx">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="DAj-kL-byZ" id="NO5-hW-1Yv"/>
-                                    <outlet property="delegate" destination="DAj-kL-byZ" id="AHs-xy-vCG"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="0GG-5q-Ubx" secondAttribute="trailing" id="BXX-ja-WVn"/>
-                            <constraint firstItem="0GG-5q-Ubx" firstAttribute="top" secondItem="McE-0N-tgi" secondAttribute="top" id="fcj-h8-huN"/>
-                            <constraint firstItem="mIj-c8-dYA" firstAttribute="top" secondItem="0GG-5q-Ubx" secondAttribute="bottom" id="mMW-2D-AkN"/>
-                            <constraint firstItem="0GG-5q-Ubx" firstAttribute="leading" secondItem="McE-0N-tgi" secondAttribute="leading" id="rGk-pg-iKH"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Omc-Sz-JxT"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R3n-E2-J9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3772" y="-537"/>
         </scene>
         <!--Uart Settings View Controller-->
         <scene sceneID="8ap-5p-T2i">
@@ -874,7 +839,7 @@
         <!--UART-->
         <scene sceneID="5dE-rU-o9b">
             <objects>
-                <viewController storyboardIdentifier="UartServiceViewController" automaticallyAdjustsScrollViewInsets="NO" id="WA4-uk-jHd" customClass="UartServiceViewController" customModule="seizureDetection" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UartServiceViewController" automaticallyAdjustsScrollViewInsets="NO" id="WA4-uk-jHd" customClass="UartServiceViewController" customModule="seizureDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QYX-zi-RFV"/>
                         <viewControllerLayoutGuide type="bottom" id="ATk-qp-wDO"/>

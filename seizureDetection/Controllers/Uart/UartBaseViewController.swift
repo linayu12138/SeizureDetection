@@ -308,7 +308,6 @@ class UartBaseViewController: PeripheralModeViewController {
     
     @IBAction func onClickSend(_ sender: AnyObject) {
         //guard let blePeripheral = blePeripheral else { return }
-        
         var newText = inputTextField.text ?? ""
         
         // Eol

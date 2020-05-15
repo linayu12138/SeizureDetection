@@ -99,6 +99,7 @@ class MLViewController: UIViewController {
     @IBAction func clearCanvas(_ sender: UIButton) {
         canvasView.clearCanvas()
         answerLabel.text = "?"
+        answerLabel.textColor = UIColor.black
     }
     
     @IBAction func recognize(_ sender: UIButton) {

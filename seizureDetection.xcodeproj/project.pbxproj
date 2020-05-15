@@ -18,6 +18,8 @@
 		97279F7723F114B200B2BAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97279F7623F114B200B2BAFB /* ViewController.swift */; };
 		97279F7A23F114B200B2BAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7823F114B200B2BAFB /* Main.storyboard */; };
 		97279F7F23F114B500B2BAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97279F7D23F114B500B2BAFB /* LaunchScreen.storyboard */; };
+		974FAA382460766E0006C8ED /* detectSeizure.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 974FAA372460766E0006C8ED /* detectSeizure.mlmodel */; };
+		974FAA3C24608AFE0006C8ED /* DetectSeizureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974FAA3B24608AFE0006C8ED /* DetectSeizureViewController.swift */; };
 		9759680A23FC70840088FC7B /* UartPacketManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F423FC70840088FC7B /* UartPacketManagerBase.swift */; };
 		9759680B23FC70840088FC7B /* UartPeripheralModePacketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */; };
 		9759680C23FC70840088FC7B /* DeviceInformationPeripheralService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */; };
@@ -150,6 +152,7 @@
 		97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */; };
 		97598EE123FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */; };
 		975D3D8023F2173A0054944F /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D3D7F23F2173A0054944F /* Checkbox.swift */; };
+		9773CA60246E50930047204E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9773CA5F246E50930047204E /* HistoryViewController.swift */; };
 		9781E346240A458200A30686 /* Uart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9781E345240A458200A30686 /* Uart.storyboard */; };
 		9781E354240A461A00A30686 /* UartTimetampTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E348240A461A00A30686 /* UartTimetampTableViewCell.swift */; };
 		9781E355240A461A00A30686 /* UartMqttSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9781E349240A461A00A30686 /* UartMqttSettingsViewController.swift */; };
@@ -224,6 +227,8 @@
 		97279F7E23F114B500B2BAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97279F8523F114B500B2BAFB /* seizureDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97279F9023F114B500B2BAFB /* seizureDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seizureDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		974FAA372460766E0006C8ED /* detectSeizure.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = detectSeizure.mlmodel; sourceTree = "<group>"; };
+		974FAA3B24608AFE0006C8ED /* DetectSeizureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectSeizureViewController.swift; sourceTree = "<group>"; };
 		975967F423FC70840088FC7B /* UartPacketManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPacketManagerBase.swift; sourceTree = "<group>"; };
 		975967F623FC70840088FC7B /* UartPeripheralModePacketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartPeripheralModePacketManager.swift; sourceTree = "<group>"; };
 		975967F723FC70840088FC7B /* DeviceInformationPeripheralService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInformationPeripheralService.swift; sourceTree = "<group>"; };
@@ -489,6 +494,7 @@
 		97598EDE23FDCA390088FC7B /* EmptyDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDetailsViewController.swift; sourceTree = "<group>"; };
 		97598EE023FDCE5B0088FC7B /* CalibrationUartSamplerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrationUartSamplerViewController.swift; sourceTree = "<group>"; };
 		975D3D7F23F2173A0054944F /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		9773CA5F246E50930047204E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		9781E345240A458200A30686 /* Uart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Uart.storyboard; sourceTree = "<group>"; };
 		9781E348240A461A00A30686 /* UartTimetampTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartTimetampTableViewCell.swift; sourceTree = "<group>"; };
 		9781E349240A461A00A30686 /* UartMqttSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartMqttSettingsViewController.swift; sourceTree = "<group>"; };
@@ -576,10 +582,8 @@
 		9721D97F24569AF90099FA10 /* ML Model */ = {
 			isa = PBXGroup;
 			children = (
-				9721D98624569E160099FA10 /* handWritten.mlmodel */,
-				9721D98024569DFC0099FA10 /* CanvasView.swift */,
-				9721D98124569DFD0099FA10 /* UIImageExtension.swift */,
-				9721D98224569DFD0099FA10 /* MLViewController.swift */,
+				974FAA3A2460834B0006C8ED /* detectSeizure */,
+				974FAA392460832C0006C8ED /* handWritten */,
 			);
 			path = "ML Model";
 			sourceTree = "<group>";
@@ -628,6 +632,26 @@
 				97598DA223FDC1C30088FC7B /* Resources */,
 			);
 			path = seizureDetection;
+			sourceTree = "<group>";
+		};
+		974FAA392460832C0006C8ED /* handWritten */ = {
+			isa = PBXGroup;
+			children = (
+				9721D98624569E160099FA10 /* handWritten.mlmodel */,
+				9721D98024569DFC0099FA10 /* CanvasView.swift */,
+				9721D98124569DFD0099FA10 /* UIImageExtension.swift */,
+				9721D98224569DFD0099FA10 /* MLViewController.swift */,
+			);
+			path = handWritten;
+			sourceTree = "<group>";
+		};
+		974FAA3A2460834B0006C8ED /* detectSeizure */ = {
+			isa = PBXGroup;
+			children = (
+				974FAA372460766E0006C8ED /* detectSeizure.mlmodel */,
+				974FAA3B24608AFE0006C8ED /* DetectSeizureViewController.swift */,
+			);
+			path = detectSeizure;
 			sourceTree = "<group>";
 		};
 		975967F223FC70840088FC7B /* AdafruitKit */ = {
@@ -1126,6 +1150,7 @@
 		97598E2223FDC36B0088FC7B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9773CA5E246E50680047204E /* History */,
 				9721D97F24569AF90099FA10 /* ML Model */,
 				97B1C0202412F11C00F3BD5B /* Plotter */,
 				9781E35F240A464E00A30686 /* GattServer */,
@@ -1218,6 +1243,14 @@
 				97598ED923FDC8A90088FC7B /* PeripheralModulesViewController.swift */,
 			);
 			path = PeripheralModules;
+			sourceTree = "<group>";
+		};
+		9773CA5E246E50680047204E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9773CA5F246E50930047204E /* HistoryViewController.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 		9781E344240A455B00A30686 /* Storyboards */ = {
@@ -1520,6 +1553,7 @@
 				97598DD323FDC1EB0088FC7B /* CocoaCompatibility.swift in Sources */,
 				97598EB523FDC36C0088FC7B /* ControllerComponentsTableViewCell.swift in Sources */,
 				97FF4EBC23FFC476008C02EE /* Archive.swift in Sources */,
+				974FAA382460766E0006C8ED /* detectSeizure.mlmodel in Sources */,
 				9781E356240A461A00A30686 /* UartBaseViewController.swift in Sources */,
 				9781E366240A464F00A30686 /* ServiceTableViewCell.swift in Sources */,
 				97598EAE23FDC36C0088FC7B /* ModeTabsViewController.swift in Sources */,
@@ -1549,6 +1583,7 @@
 				97598EDF23FDCA3A0088FC7B /* EmptyDetailsViewController.swift in Sources */,
 				97598E1223FDC2A90088FC7B /* MqttManager.swift in Sources */,
 				97279F7723F114B200B2BAFB /* ViewController.swift in Sources */,
+				9773CA60246E50930047204E /* HistoryViewController.swift in Sources */,
 				9759681B23FC70840088FC7B /* LogHelper.swift in Sources */,
 				97598E8A23FDC36C0088FC7B /* CalibrationMenuViewController.swift in Sources */,
 				9759681723FC70840088FC7B /* BlePeripheral+Battery.swift in Sources */,
@@ -1594,6 +1629,7 @@
 				97598E1623FDC2A90088FC7B /* FirmwareUpdater.swift in Sources */,
 				9759681323FC70840088FC7B /* UartLogManager.swift in Sources */,
 				97598EB223FDC36C0088FC7B /* ControllerPadViewController.swift in Sources */,
+				974FAA3C24608AFE0006C8ED /* DetectSeizureViewController.swift in Sources */,
 				9759681123FC70840088FC7B /* BlePeripheral.swift in Sources */,
 				97598E8D23FDC36C0088FC7B /* VisualizationViewController.swift in Sources */,
 				9781E35E240A461A00A30686 /* UartSettingsViewController.swift in Sources */,
